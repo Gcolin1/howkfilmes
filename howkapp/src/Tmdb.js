@@ -27,6 +27,32 @@ export default{
                 title: 'Recomendados',
                 items: await basicFetch(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
             },
+            
+            
+            {
+                slug: 'movies',
+                title: 'filmes',
+                items: await basicFetch(`/discover/movie?&language=pt-BR&api_key=${API_KEY}`)
+            },
+
+            {
+                slug: 'series',
+                title: 'Séries',
+                items: await basicFetch(`/discover/tv?&language=pt-BR&api_key=${API_KEY}`)
+            },
+
+            {
+                slug: 'animes',
+                title: 'Animes',
+                items: await basicFetch(`/discover/tv?with_genres=16&with_keywords=210024&language=pt-BR&api_key=${API_KEY}`)
+            },
+
+            
+        ]
+    },
+
+    PaginaFilmes: async() =>{
+        return[
 
             {
                 slug: 'action',
@@ -52,12 +78,6 @@ export default{
                 items: await basicFetch(`/discover/movie?with_genres=10749&language=pt-BR&api_key=${API_KEY}`)
             },
 
-            {
-                slug: 'documentary',
-                title: 'documentários',
-                items: await basicFetch(`/discover/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`)
-            },
-
         ]
-    } 
+    }
 }
