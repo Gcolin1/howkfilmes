@@ -78,6 +78,61 @@ export default{
                 items: await basicFetch(`/discover/movie?with_genres=10749&language=pt-BR&api_key=${API_KEY}`)
             },
 
+            {
+                slug: 'animes',
+                title: 'Animes',
+                items: await basicFetch(`/discover/movie?with_genres=16&with_keywords=210024&language=pt-BR&api_key=${API_KEY}`)
+            },
+        ]
+    },
+
+    getListSeries: async () =>{
+        return [
+            {
+                slug: 'series',
+                title: 'Séries',
+                items: await basicFetch(`/discover/tv?with_genres=18&language=pt-BR&api_key=${API_KEY}`)
+            },
+
+            {
+                slug: 'series_comedy',
+                title: 'Séries de Comédia',
+                items: await basicFetch(`/discover/tv?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
+            },
+
+            {
+                slug: 'series_romance',
+                title: 'Séries de Romance',
+                items: await basicFetch(`/discover/tv?with_genres=10749&language=pt-BR&api_key=${API_KEY}`)
+            },
+        ]
+    },
+
+    getAnimesList: async () =>{
+        return [
+            {
+                slug: 'animes',
+                title: 'Filmes',
+                items: await basicFetch(`/discover/movie?with_genres=16&with_keywords=210024&language=pt-BR&api_key=${API_KEY}`)
+            },
+
+            {
+                slug: 'animes',
+                title: 'Animes',
+                items: await basicFetch(`/discover/tv?with_genres=16&with_keywords=210024&language=pt-BR&api_key=${API_KEY}`)
+            },
+
+            {
+                slug: 'animes',
+                title: 'Animes Romanticos',
+                items: await basicFetch(`/discover/tv?with_genres=10749&with_keywords=210024&language=pt-BR&api_key=${API_KEY}`)
+            },
+
+            {
+                slug: 'animes',
+                title: 'Animes de Comédia',
+                items: await basicFetch(`/discover/tv?with_genres=35&with_keywords=210024&language=pt-BR&api_key=${API_KEY}`)
+            },
         ]
     }
 }
