@@ -72,7 +72,6 @@ body{
 .container_main{
     margin-top: 30px;
     border-top: #4e4e4e solid 1px;
-    border-bottom: #4e4e4e solid 1px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -115,5 +114,13 @@ body{
     display: flex;
     align-items: center;
     border-top: solid #4e4e4e 1px;
+    border-bottom: #4e4e4e solid 1px;
     padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container_form h2{
+    color: #f2f2f2;
+    margin-top: 50px;
+    font-size: 2em;
 }

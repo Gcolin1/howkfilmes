@@ -64,6 +64,10 @@ function PaginaInicial(){
                         </p>
                     </div>
                 </section>
+
+                <section className="container_form">
+                    <h2>Entre em contato conosco</h2>
+                </section>
             </main>
         </div>
     )
