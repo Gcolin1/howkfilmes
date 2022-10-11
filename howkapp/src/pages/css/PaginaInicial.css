@@ -193,4 +193,6 @@ body{
     background-color: #CBCF00;
     font-size: 1.5em;
     padding: 15px 50px;
+    border-radius: 10px;
+    font-weight: bold;
 }
