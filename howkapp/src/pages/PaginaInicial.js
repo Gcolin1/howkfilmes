@@ -67,6 +67,29 @@ function PaginaInicial(){
 
                 <section className="container_form">
                     <h2>Entre em contato conosco</h2>
+
+                    <div>
+                    <form type="submit" method="POST">
+                        <label class="login-label">
+                            <span>nome</span>
+                            <input type="text" name="nome" class="input" />
+                        </label>
+                        <label class="login-label">
+                            <span>Email</span>
+                            <input type="email" name="email" class="input" />
+                        </label>
+                        <label class="login-label">
+                            <span>Telefone</span>
+                            <input type="tel" name="fone" class="input" />
+                        </label>
+                        <label class="login-label">
+                            <span>Assunto</span>
+                            <textarea name="mens" class="input"></textarea>
+                        </label>
+                    
+                        <button class="btn-contato" type="submit">Enviar</button>
+                    </form>
+                    </div>
                 </section>
             </main>
         </div>

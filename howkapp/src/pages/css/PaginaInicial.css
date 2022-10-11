@@ -121,6 +121,76 @@ body{
 
 .container_form h2{
     color: #f2f2f2;
-    margin-top: 50px;
+    margin: 50px 0;
     font-size: 2em;
+}
+
+/* FORMULARIO */
+
+.inputs{
+    text-align: center;
+    width: 600px;
+    padding: 20px 50px;
+    background: #ffffff;
+    border-radius: 0 50px 50px 0;
+    -webkit-box-shadow:2px 1px 22px 0px rgba(62,66,66,0.7);
+    -moz-box-shadow: 2px 1px 22px 0px rgba(62,66,66,0.7);
+    box-shadow: 2px 1px 22px 0px #00000067;
+}
+
+.inputs h3{
+    margin: 50px 0;
+}
+
+.login-label{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input{
+    width: 100%;
+    background-color: #f2f2f2;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+
+.login-label textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    font-size: 1.2em;
+}
+
+.login-label span{
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+.input:focus{
+    background: #fff;
+    border: 2px solid #888888;
+}
+
+.login-label .span-active{
+    font-size: 0.7em;
+    margin: 8px 10px;
+}
+
+.btn-contato{
+    background-color: #CBCF00;
+    font-size: 1.5em;
+    padding: 15px 50px;
 }
