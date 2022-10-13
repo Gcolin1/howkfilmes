@@ -90,7 +90,7 @@ function PaginaInicial(){
                         <button class="btn-contato" type="submit">Enviar</button>
                     </form>
                     </div>
-                </section>
+                </section>  
             </main>
         </div>
     )
