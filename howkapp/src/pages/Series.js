@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react"
 import ListaDeFilmes from "../components/ListaDeFilmes"
+import Loading from "../components/Loading"
 import Tmdb from "../Tmdb"
 
 function Series(){
@@ -24,6 +25,10 @@ function Series(){
                         <ListaDeFilmes key={key} title={item.title} items={item.items} />
                     ))}
                 </section>
+
+                {movieList.length <= 0 &&
+                     <Loading />    
+                }
 
         </div>
     )

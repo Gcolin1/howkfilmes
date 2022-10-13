@@ -1,5 +1,6 @@
 import React, {useEffect, useState}  from 'react'
 import Tmdb from '../Tmdb'
+import Loading from '../components/Loading'
 import ListaDeFilmes from '../components/ListaDeFilmes'
 
 
@@ -27,6 +28,10 @@ function Home(){
                     ))}
                 </section>
 
+            
+               {movieList.length <= 0 &&
+                     <Loading />    
+               }
         </div>
     )
 }
