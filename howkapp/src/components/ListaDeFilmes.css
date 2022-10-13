@@ -1,0 +1,38 @@
+*{
+    font-size: 20px;
+}
+
+.LinhaDeFilmes{
+    margin-bottom: 30px;
+}
+
+.LinhaDeFilmes--title{
+    margin: 0px 0px 0px 30px;
+    color: #f2f2f2;
+    font-size: 1.5em;
+}
+
+.LinhaDeFilmes--container{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.LinhaDeFilmes--lista{
+    width: 9999px;
+}
+
+.LinhaDeFilmes--item{
+    display: inline-block;
+    width: 150px;
+}
+
+.LinhaDeFilmes--item img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: ease-in 200ms;
+    cursor: pointer;
+}
+
+.LinhaDeFilmes--item img:hover{
+    transform: scale(1);
+}
