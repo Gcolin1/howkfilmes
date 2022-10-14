@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.backgroundLogin{
+    background-image: url(../../assets/backLogin.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+.containerInput{
+    background-color: #fff;
+    padding: 40px 40px;
+    margin-left: 5%;        
+}
+
+.containerInput h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d3e200;
+    margin-bottom: 30px;
+}
+
+.inputLogin{
+    border: none;
+    background-color: #f2f2f2;
+    width: 350px;
+}
+
+.inoutLogin:focus{
+    box-shadow: none;
+}
+
+.labelLogin{
+    color: rgba(0, 0, 0, 0.438);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.linkCad{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+.linkCad:hover{
+    color: rgb(73, 73, 73);
+}
+
+#BtnLogin{
+    background: #d3e200;
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
