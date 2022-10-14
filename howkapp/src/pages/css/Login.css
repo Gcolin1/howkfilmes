@@ -17,7 +17,7 @@
 
 .containerInput{
     background-color: #fff;
-    padding: 40px 40px;
+    padding: clamp(35px, 8%, 70px);
     margin-left: 5%;        
 }
 
@@ -63,4 +63,42 @@
     font-weight: bold;
     margin-top: 30px;
     cursor: pointer;
+}
+
+#BtnLogin:hover{
+    background: #a8b400;
+}
+
+.login-icons{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login-icons img{
+    width: 20px;
+}
+
+.icon-button{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.login-icons .icon-button:nth-child(1){
+    background: #385490;
+}
+
+.login-icons .icon-button:nth-child(2){
+    background: #f2f2f2;
+}
+
+.login-icons .icon-button:nth-child(3){
+    background: #000;
 }

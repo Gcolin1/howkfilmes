@@ -1,6 +1,10 @@
 import React from 'react'
 import './css/Login.css'
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
+import {Link} from 'react-router-dom'
+import IconGoogle from '../assets/google.png'
+import IconApple from '../assets/apple.png'
+import IconFace from '../assets/facebook.png'
 
 function Login(){
     return(
@@ -35,11 +39,25 @@ function Login(){
                         </FormGroup>
                         {' '}
                 </Form>
-                <a className="linkCad">Não tem acesso? assine.</a>
+                <Link to={"/cadastro"} className="linkCad">Não tem acesso? assine.</Link>
 
-                <Button id='BtnLogin'>
-                   Entrar
-                </Button>
+                <div class="login-icons">
+                    <button type="button" class="icon-button">
+                        <img src={IconFace} alt="facebook" />
+                    </button>
+                    <button type="button" class="icon-button">
+                        <img src={IconGoogle} alt="google" />
+                    </button>
+                    <button type="button" class="icon-button">
+                        <img src={IconApple} alt="apple" />
+                    </button>
+            </div>
+
+                <Link to={"/"}>
+                    <Button id='BtnLogin'>
+                       Entrar
+                    </Button>
+                </Link>
            </div>
         </div>
     )

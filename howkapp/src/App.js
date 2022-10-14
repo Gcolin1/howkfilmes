@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import PaginaInicial from "./pages/PaginaInicial";
 import ParaFamilia from "./pages/ParaFamillia";
 import Series from "./pages/Series";
+import Cadastro from "./pages/Cadastro";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/animes" component={Animes} />   
           <Route path="/parafamilia" component={ParaFamilia} />   
           <Route path="/login" component={Login} />   
+          <Route path="/cadastro" component={Cadastro} />   
         </BrowserRouter>
     </div>
   );
