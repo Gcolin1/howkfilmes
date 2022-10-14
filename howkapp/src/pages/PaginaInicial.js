@@ -7,6 +7,7 @@ import ImgFilmes from "../assets/img-filmes.png"
 import ImgAnimes from "../assets/img-animes.png"
 import BotaoAmarelo from "../components/BotaoAmarelo"
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
+import {Link} from 'react-router-dom'
 
 
 function PaginaInicial() {
@@ -16,7 +17,9 @@ function PaginaInicial() {
             <header className="bannerInicial">
                 <div className="gradient-top"></div>
                 <div className="btn-topo">
-                    <ButtonComp />
+                    <Link to={"/login"}>
+                        <ButtonComp />
+                    </Link>
                 </div>
                 <div className="infoTop">
                     <img className="logoTop" src={logoTopo} alt="logo" />
