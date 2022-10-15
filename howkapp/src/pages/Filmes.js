@@ -23,6 +23,7 @@ function Filmes() {
             <header>
                 <h1>Buceta</h1>
             </header>
+            
             <section className="listas">
                 {movieList.map((item, key) => (
                     <ListaDeFilmes

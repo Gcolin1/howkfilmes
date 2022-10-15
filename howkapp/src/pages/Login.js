@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom'
 import IconGoogle from '../assets/google.png'
 import IconApple from '../assets/apple.png'
 import IconFace from '../assets/facebook.png'
+import BackLogin from '../assets/backLogin.png'
 
 function Login(){
     return(
-        <div className='backgroundLogin'>
+        <div className='containerLogin'>
            <div className='containerInput'>
                 <h1>Entrar</h1>
-                <Form>
+                <Form className='formLogin'>
                         <FormGroup floating>
                             <Input
                                 className="inputLogin"
@@ -51,13 +52,16 @@ function Login(){
                     <button type="button" class="icon-button">
                         <img src={IconApple} alt="apple" />
                     </button>
-            </div>
+                </div>
 
                 <Link to={"/"}>
                     <Button id='BtnLogin'>
                        Entrar
                     </Button>
                 </Link>
+           </div>
+
+           <div className='backgroundLogin'>
            </div>
         </div>
     )
