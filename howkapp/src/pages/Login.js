@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom'
 import IconGoogle from '../assets/google.png'
 import IconApple from '../assets/apple.png'
 import IconFace from '../assets/facebook.png'
-import BackLogin from '../assets/backLogin.png'
 
 function Login(){
     return(

@@ -1,0 +1,36 @@
+.menu{
+    background-color: #0A060D;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.link{
+    color: #f2f2f2;
+    font-weight:5600;
+}
+
+.inputMenu{
+    height: 30px;
+    margin: 10px 0px;
+    margin-left: 100px;
+    box-shadow: none;
+    background-color: #0A060D;
+    border: #f2f2f2c4 solid 1px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    color: #f2f2f2;
+}
+
+.inputMenu:focus{
+    box-shadow: none;
+    background-color: #0A060D;
+    border: #f2f2f2b6 solid 1px;
+    color: #f2f2f2;
+}
