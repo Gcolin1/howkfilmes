@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeça {
+    margin: 1.3rem 0rem 0rem 6rem;
+}
+
+.logoTop {
+    padding-right: 2rem;
+    width: 13%;
+}
+
+.navegaçao {
+    margin-left: 3rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+.navegaçao:hover {
+    color: rgb(197, 197, 197);
+}
+
+.search-box {
+    margin-right: 15rem;
+    float: right;
+}
+
+.bem-vindo {
+    margin-top: 21rem;
+    text-align: center;
+}
+
+.rodape {
+    position: absolute;
+    text-align: center;
+    margin-left: 0%;
+    width: 95rem;
+    background-image: url(../../assets/fundofooter.png);
+    background-position-y: -1rem;
+    background-size: cover;
+}
+
+.logoBottom {
+    width: 16%;
+}
+.redessocial-1 {
+    width: 3.2%;
+    margin: 5px;
+}
+.redessocial-2 {
+    width: 4.5%;
+    margin: 15px;
+}
+
+.redessocial-3 {
+    width: 3%;
+    margin: 15px;
+}
+
+
+.copy {
+    color: white;
+}
