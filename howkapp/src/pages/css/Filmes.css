@@ -3,33 +3,7 @@
     padding: 0;
 }
 
-.cabeça {
-    margin: 1.3rem 0rem 0rem 6rem;
-}
-
-.logoTop {
-    padding-right: 2rem;
-    width: 13%;
-}
-
-.navegaçao {
-    margin-left: 3rem;
-    color: aliceblue;
-    text-decoration: none;
-}
-.navegaçao:hover {
-    color: rgb(197, 197, 197);
-}
-
-.search-box {
-    margin-right: 15rem;
-    float: right;
-}
-
-.bem-vindo {
-    margin-top: 21rem;
-    text-align: center;
-}
+/*RodaPé*/
 
 .rodape {
     position: absolute;
@@ -46,19 +20,25 @@
 }
 .redessocial-1 {
     width: 3.2%;
-    margin: 5px;
+    margin: 1%;
 }
 .redessocial-2 {
     width: 4.5%;
-    margin: 15px;
+    margin: 1%;
 }
 
 .redessocial-3 {
     width: 3%;
-    margin: 15px;
+    margin: 1%;
 }
 
 
 .copy {
     color: white;
+}
+
+@media(max-width:1200px) {
+    .col {
+        width: 800px;
+    }
 }

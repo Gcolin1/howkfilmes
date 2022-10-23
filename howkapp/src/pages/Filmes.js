@@ -6,6 +6,9 @@ import logoTopo from '../assets/logoTopo.png';
 import instagram from '../assets/instagram2.png';
 import facebook from '../assets/facebook2.png';
 import twitter from '../assets/twitter.png';
+import Menu from '../components/Menu';
+import Banner from '../components/Banner';
+import './css/Filmes.css';
 
 import './css/Filmes.css';
 
@@ -27,49 +30,9 @@ function Filmes() {
     return (
         <div className="pageHome">
             <header className="cabeça">
-                <img className="logoTop" src={logoTopo} alt="logo" />
-
-                <a className="navegaçao" href="https://www.youtube.com/">
-                    Filmes
-                </a>
-
-                <a className="navegaçao" href="https://www.youtube.com/">
-                    Séries
-                </a>
-
-                <a className="navegaçao" href="https://www.youtube.com/">
-                    Animes
-                </a>
-
-                <a className="navegaçao" href="https://www.youtube.com/">
-                    Para toda família
-                </a>
-
-                <div className="search-box">
-                    <input
-                        autocomplete="off"
-                        type="text"
-                        name="tPesquisar"
-                        id="Filmes"
-                        required="required"
-                        placeholder="Pesquisar..."
-                    />
-                </div>
+                <Menu />
+                <Banner />
             </header>
-
-            <section className="bem-vindo">
-                <h1>Bem-vindo ao HowkFilmes</h1>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.{' '}
-                </p>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.{' '}
-                </p>
-            </section>
-
-            <section></section>
 
             <section className="listas">
                 {movieList.map((item, key) => (
