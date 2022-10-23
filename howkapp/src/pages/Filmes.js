@@ -70,6 +70,7 @@ function Filmes() {
             </section>
 
             <section></section>
+
             <section className="listas">
                 {movieList.map((item, key) => (
                     <ListaDeFilmes
