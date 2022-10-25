@@ -4,6 +4,7 @@ import Loading from '../components/Loading'
 import ListaDeFilmes from '../components/ListaDeFilmes'
 import Menu from '../components/Menu'
 import Banner from '../components/Banner'
+import Footer from '../components/Footer'
 
 
 function Home(){
@@ -32,6 +33,7 @@ function Home(){
                         <ListaDeFilmes key={key} title={item.title} items={item.items} />
                     ))}
                 </section>
+                <Footer />
 
             
                {movieList.length <= 0 &&
