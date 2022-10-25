@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*RodaPé*/
+
+.rodape {
+    text-align: center;
+    width: 100%;
+    background-image: url(../assets/fundofooter.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.degrade-top{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(#0a060d 30%, rgba(255, 255, 255, 0));
+}
+
+.logoBottom {
+    width: 16%;
+    margin-top: -50px;
+}
+
+.redes{
+    margin-bottom: 200px;
+    margin-top: -10px;
+}
+
+.redes a img{
+    width: 50px;
+    margin: 20px 10px;
+}
+
+.copy {
+    color: white;
+}
+
+@media(max-width:1200px) {
+    .col {
+        width: 800px;
+    }
+}
