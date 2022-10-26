@@ -2,12 +2,12 @@ import React from "react"
 import ButtonComp from "../components/ButtonComp"
 import "./css/PaginaInicial.css"
 import logoTopo from "../assets/logoTopo.png"
-import Planet from "../assets/planet.png"
 import ImgFilmes from "../assets/img-filmes.png"
 import ImgAnimes from "../assets/img-animes.png"
 import BotaoAmarelo from "../components/BotaoAmarelo"
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
 import {Link} from 'react-router-dom'
+import Familia from '../assets/img-familia.png'
 
 
 function PaginaInicial() {
@@ -35,7 +35,7 @@ function PaginaInicial() {
                 
                 <section className="container-planet">
                     <div>
-                        <img alt="imagem planeta" className="img" src={Planet} />
+                        <img alt="imagem planeta" className="img" src={Familia} />
                     </div>
 
                     <div className="planet-info">
