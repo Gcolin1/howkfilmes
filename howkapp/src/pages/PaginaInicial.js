@@ -24,12 +24,15 @@ function PaginaInicial() {
                 <div className="infoTop">
                     <img className="logoTop" src={logoTopo} alt="logo" />
                     <p>Séries, filmes e animes que você precisa</p>
-                    <BotaoAmarelo />
+                    <Link to={"/cadastro"}>
+                        <BotaoAmarelo />
+                    </Link>
                 </div>
-                <div className="gradient-bottom"></div>
             </header>
 
+            <div className="gradient-bottom"></div>
             <main className="site container_main">
+                
                 <section className="container-planet">
                     <div>
                         <img alt="imagem planeta" className="img" src={Planet} />
@@ -69,70 +72,79 @@ function PaginaInicial() {
                         </p>
                     </div>
                 </section>
-
-                <div className="inputs">
-                    <h3>Entre em contato conosco</h3 >
-                    <Form>
-                        <FormGroup floating>
-                            <Input
-                                className="input"
-                                id="exampleNome"
-                                name="nome"
-                                placeholder="Nome"
-                                type="text"
-                            />
-                            <Label className="label" for="examplePassword">
-                                Nome
-                            </Label>
-                        </FormGroup>
-
-                        <FormGroup floating>
-                            <Input
-                                className="input"
-                                id="exampleEmail"
-                                name="email"
-                                placeholder="Email"
-                                type="email"
-                            />
-                            <Label className="label" for="exampleEmail">
-                                Email
-                            </Label>
-                        </FormGroup>
-                        {' '}
-
-                        <FormGroup floating>
-                            <Input
-                                className="input"
-                                id="exampleCelular"
-                                name="Celular"
-                                placeholder="Celular"
-                                type="text"
-                            />
-                            <Label className="label" for="examplePassword">
-                                Celular
-                            </Label>
-                        </FormGroup>
-
-                        <FormGroup floating>
-                            <Input
-                                className="input"
-                                id="exampleAssunto"
-                                name="assunto"
-                                placeholder="Assunto"
-                                type="text"
-                            />
-                            <Label className="label" for="examplePassword">
-                                Assunto
-                            </Label>
-                        </FormGroup>
-                        {' '}
-                        <Button className="botaoEnviar">
-                            Enviar
-                        </Button>
-                    </Form>
-
-                </div>
             </main>
+
+            <section className="fundoForm">
+                    <div className='degrade-topo'></div>
+                    <div className="inputs">
+                        <h3>Entre em contato conosco</h3 >
+                        <Form>
+                            <FormGroup floating>
+                                <Input
+                                    className="input"
+                                    id="exampleNome"
+                                    name="nome"
+                                    placeholder="Nome"
+                                    type="text"
+                                />
+                                <Label className="label" for="examplePassword">
+                                    Nome
+                                </Label>
+                            </FormGroup>
+                            <FormGroup floating>
+                                <Input
+                                    className="input"
+                                    id="exampleEmail"
+                                    name="email"
+                                    placeholder="Email"
+                                    type="email"
+                                />
+                                <Label className="label" for="exampleEmail">
+                                    Email
+                                </Label>
+                            </FormGroup>
+                            {' '}
+                            <FormGroup floating>
+                                <Input
+                                    className="input"
+                                    id="exampleCelular"
+                                    name="Celular"
+                                    placeholder="Celular"
+                                    type="text"
+                                />
+                                <Label className="label" for="examplePassword">
+                                    Celular
+                                </Label>
+                            </FormGroup>
+                            <FormGroup floating>
+                                <Input
+                                    className="input"
+                                    id="exampleAssunto"
+                                    name="assunto"
+                                    placeholder="Assunto"
+                                    type="text"
+                                />
+                                <Label className="label" for="examplePassword">
+                                    Assunto
+                                </Label>
+                            </FormGroup>
+                            {' '}
+                            <Button className="botaoEnviar">
+                                Enviar
+                            </Button>
+                        </Form>
+                    </div>
+                </section>
+                <footer className="footer">
+                        <div>
+                            <img alt="logo rodape" src={logoTopo} />
+                        </div>
+                   
+                        <div className="copy-footer">
+                            <sup>&copy;</sup>Copyright HowkFilmes 2022 - Todos os direitos
+                            reservados.
+                        </div>
+                </footer>
         </div>
     )
 }

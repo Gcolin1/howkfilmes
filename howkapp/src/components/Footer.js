@@ -47,7 +47,7 @@ function Footer(){
         
 
                 <small className="copy">
-                    <sup>&copy;</sup> HowkFilmes 2022 - Todos os direitos
+                    <sup>&copy;</sup>HowkFilmes 2022 - Todos os direitos
                     reservados.
                 </small>
             </footer>

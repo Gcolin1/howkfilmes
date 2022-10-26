@@ -8,6 +8,7 @@ import PaginaInicial from './pages/PaginaInicial';
 import ParaFamilia from './pages/ParaFamillia';
 import Series from './pages/Series';
 import Cadastro from './pages/Cadastro';
+import './App.css'
 
 function App() {
     return (

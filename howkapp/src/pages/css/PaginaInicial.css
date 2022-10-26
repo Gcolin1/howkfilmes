@@ -15,11 +15,12 @@ body{
 }
 
 .bannerInicial{
-    height: 100vh;
     width: 100%;
-    background-image: url(../../assets/banner-inicial.jpg);
+    height: 100vh;
+    background-image: url(../../assets/aranhaverso2.jpg);
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    flex: 1;
 }
 
 .btn-topo{
@@ -27,6 +28,11 @@ body{
     bottom: 70px;
     float: right;
     margin-right: 30px;
+    text-decoration: none;
+}
+
+.btn-topo:hover{
+    color: #000;
 }
 
 .gradient-top{
@@ -39,7 +45,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 55vh;
+    justify-content: flex-end;
+    margin-top: 60vh;
 }
 
 .infoTop p{
@@ -52,10 +59,9 @@ body{
 
 .gradient-bottom{
     width: 100%;
-    background: linear-gradient(to top,#0a060d 30%, rgba(255, 255, 255, 0));
+    background: linear-gradient(to top,#0A060D 30%, rgba(255, 255, 255, 0));
     height: 400px;
-    position: relative;
-    top: -20vh;
+    margin-top: -300px;
 }
 
 .container-planet{
@@ -67,11 +73,21 @@ body{
 
 .img{
     width: 60%;
+    animation: move 1000ms alternate infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(-5px);
+    }
+
+    100%{
+        transform: translateY(5px);
+    }
 }
 
 .container_main{
-    margin-top: 30px;
-    border-top: #4e4e4e solid 1px;
+    margin-top: 50px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -114,7 +130,6 @@ body{
     display: flex;
     align-items: center;
     border-top: solid #4e4e4e 1px;
-    border-bottom: #4e4e4e solid 1px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -127,11 +142,28 @@ body{
 
 /* FORMULARIO */
 
+.degrade-topo{
+    width: 100%;
+    background: linear-gradient(#0a060d 40%, rgba(255, 255, 255, 0));
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+}
+
+.fundoForm{
+    width: 100%;
+    background-image: url(../../assets/starwars.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 90px 0;
+}
+
 .inputs{
     text-align: center;
-    width: 60%;
     padding: 20px 50px;
     border-radius: 0 50px 50px 0;
+    max-width: 500px;
 }
 
 .inputs h3{
@@ -140,13 +172,14 @@ body{
 }
 
 .label{
-    color: #f2f2f2a4;
+    color: #b6b6b6;
     font-size: 0.8em;
+    font-weight: 600;
 }
 
 .input{
     width: 100%;
-    background-color: #d9d9d948;
+    background-color: #f2f2f2;
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     outline: none;
@@ -157,11 +190,8 @@ body{
 }
 
 .input:focus{
-    background-color: #d9d9d948;
+    box-shadow: none;
     border: none;
-    -webkit-box-shadow:2px 1px 22px 0px rgba(62,66,66,0.7);
-    -moz-box-shadow: 2px 1px 22px 0px rgba(62,66,66,0.7);
-    box-shadow: 2px 1px 22px 0px #b5c201;
 }
 
 .botaoEnviar{
@@ -182,4 +212,31 @@ body{
     -webkit-box-shadow:2px 1px 22px 0px rgba(62,66,66,0.7);
     -moz-box-shadow: 2px 1px 22px 0px rgba(62,66,66,0.7);
     box-shadow: 2px 1px 22px 0px #b5c201;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f2f2f2;
+    padding: 20px 0;
+    margin: 0 0px;
+}
+
+.copy-footer{
+    font-size: 0.7em;
+}
+
+.footer img{
+    width: 150px;
+}
+
+@media(max-width: 500px){
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer img{
+        margin-bottom: 10px;
+    }
 }

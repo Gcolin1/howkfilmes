@@ -1,16 +1,20 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Banner.css'
-import Banner1 from '../assets/banner.png';
-import Banner2 from '../assets/banner2.png';
+//import Banner1 from '../assets/banner.png';
+import Banner7 from '../assets/banner7.png';
+//import Banner2 from '../assets/banner2.png';
 import Banner3 from '../assets/banner3.png';
+//import Banner4 from '../assets/banner4.png';
+//import Banner5 from '../assets/banner5.png';
+import Banner6 from '../assets/banner6.png';
 
 function Banner() {
   return (
     <Carousel className="containerBanner">
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src={Banner1}
+          src={Banner7}
           alt="filmes"
         />
         <Carousel.Caption>
@@ -18,10 +22,10 @@ function Banner() {
           <p>site para vc acompanhar suas séries e filmes favoritos de onde vc estiver</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src={Banner2}
+          src={Banner6}
           alt="animes"
         />
         <Carousel.Caption>

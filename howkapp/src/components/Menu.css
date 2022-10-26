@@ -16,6 +16,10 @@
     font-weight:5600;
 }
 
+.link:hover{
+    color: #c9ab00;
+}
+
 .inputMenu{
     height: 30px;
     margin: 10px 0px;
