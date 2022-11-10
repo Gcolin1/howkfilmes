@@ -53,7 +53,7 @@ function Login(){
                     </button>
                 </div>
 
-                <Link to={"/"}>
+                <Link to={"/home"}>
                     <Button id='BtnLogin'>
                        Entrar
                     </Button>

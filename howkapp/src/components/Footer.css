@@ -25,13 +25,39 @@
 }
 
 .redes{
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     margin-top: -10px;
 }
 
 .redes a img{
     width: 50px;
     margin: 20px 10px;
+}
+
+.menuRodape{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    max-width: 1200px;
+    padding: 50px 0;
+    border-bottom: solid 1px #f2f2f2b6;
+    border-top: solid 1px #f2f2f2b6;
+}
+
+.menu1 ul li,
+.menu2 ul li,
+.menu3 ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.linkFooter{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.linkFooter:hover{
+    color: #f2f2f2b3;
 }
 
 .copy {

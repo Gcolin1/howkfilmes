@@ -14,8 +14,8 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
-                <Route exact path="/" component={Home} />
-                <Route path="/paginainicial" component={PaginaInicial} />
+                <Route path="/home" component={Home} />
+                <Route exact path="/" component={PaginaInicial} />
                 <Route path="/filmes" component={Filmes} />
                 <Route path="/series" component={Series} />
                 <Route path="/animes" component={Animes} />
