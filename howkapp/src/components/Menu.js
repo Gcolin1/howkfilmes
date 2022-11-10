@@ -11,7 +11,7 @@ function Menu() {
     return (
         <Navbar className="menu" expand="lg">
             <Container>
-                <Navbar.Brand><Link to={"/"}><img className="logo" src={LogoMenu} alt={"logo"}/></Link></Navbar.Brand>
+                <Navbar.Brand><Link to={"/home"}><img className="logo" src={LogoMenu} alt={"logo"}/></Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="container_link">
@@ -19,7 +19,7 @@ function Menu() {
                     <Nav.Link className="link" as={Link} to={"/filmes"}>Filmes</Nav.Link>
                     <Nav.Link className="link" as={Link} to={"/series"}>Séries</Nav.Link>
                     <Nav.Link className="link" as={Link} to={"/animes"}>Animes</Nav.Link>
-                    <Nav.Link className="link" as={Link} to={"/parafamilia"}>Para Toda Familia</Nav.Link>
+                    <Nav.Link className="link" as={Link} to={"/sobre"}>Sobre</Nav.Link>
                 </Nav>
                 <Form className="d-flex">
                     <Form.Control

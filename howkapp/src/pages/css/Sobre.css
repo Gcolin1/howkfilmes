@@ -1,0 +1,44 @@
+#sobre{
+    max-width: 1200px;
+    margin-top: 200px;
+    display: flex;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+#info_sobre{
+    width: 500px;
+}
+
+#info_sobre p{
+    color: #f2f2f2;
+    font-size: 1.1em;
+    line-height: 35px;
+}
+
+.titulo_sobre{
+    font-size: 2em;
+    color: #f2f2f2;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.imgSobre{
+    width: 400px;
+}
+
+.titulo_sobre span{
+    color: #7400AA;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+#parallaxSobre{
+    width: 100%;
+    height: 500px;
+    background-image: url(../../assets/equipeFundo.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 1000px;
+}

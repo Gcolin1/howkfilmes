@@ -1,7 +1,7 @@
 .btn-amarelo{
     border: none;
-    background: #CBCF00;
-    color: #000000;
+    background: #7400AA;
+    color: #f2f2f2;
     padding: 15px 70px;
     font-size: 1.5em;
     border-radius: 10px;
@@ -12,5 +12,5 @@
 }
 
 .btn-amarelo:hover{
-    background: #9a9d01;  
+    background: #5c0087;  
 }

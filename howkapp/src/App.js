@@ -9,6 +9,7 @@ import ParaFamilia from './pages/ParaFamillia';
 import Series from './pages/Series';
 import Cadastro from './pages/Cadastro';
 import './App.css'
+import Sobre from './pages/Sobre';
 
 function App() {
     return (
@@ -19,7 +20,7 @@ function App() {
                 <Route path="/filmes" component={Filmes} />
                 <Route path="/series" component={Series} />
                 <Route path="/animes" component={Animes} />
-                <Route path="/parafamilia" component={ParaFamilia} />
+                <Route path="/sobre" component={Sobre} />
                 <Route path="/login" component={Login} />
                 <Route path="/cadastro" component={Cadastro} />
             </BrowserRouter>
