@@ -15,7 +15,7 @@ function Menu() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="container_link">
-                    <Nav.Link className="link" as={Link} to={"/"}>Home</Nav.Link>
+                    <Nav.Link className="link" as={Link} to={"/home"}>Home</Nav.Link>
                     <Nav.Link className="link" as={Link} to={"/filmes"}>Filmes</Nav.Link>
                     <Nav.Link className="link" as={Link} to={"/series"}>Séries</Nav.Link>
                     <Nav.Link className="link" as={Link} to={"/animes"}>Animes</Nav.Link>
