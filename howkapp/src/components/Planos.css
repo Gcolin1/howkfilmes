@@ -1,24 +1,111 @@
-*{
+* {
     padding: 0;
     margin: 0 auto;
-    box-sizing: border-box; 
     font-family: 'Poppins', sans-serif;
+    font-size: 25px;
 }
 
-.titulo{
+.titulo {
+    padding-bottom: 5px;
     text-align: center;
-    color: #7400AA;
+    color: #8921ba;
 }
 
-.planos{
-
-    width: 30%;
-
-    border-right: 1px #7400AA solid;
-    border-left: 1px #7400AA solid;
-    border-top: 1px #7400AA solid;
-    border-bottom: 1px #7400AA solid;;
+.planos {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 40% 47%;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.plano-1{
+.hover-1{
+    color: #8921ba;
+    background-color: white;
+    padding: 29.5px;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(to top, white 90%, rgba(255, 255, 255, 0.381));
+  
+ 
+}
+
+.btn-planos{
+    font-size: 15px;
+    border: #8921ba;
+    color: white;
+    background-color: #8921ba;
+    margin-top: 20px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    text-align: center;  
+}
+
+.hover-2{
+    color: #8921ba;
+    background-color: white;
+    padding: 36.4px;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(to top, white 90%, rgba(255, 255, 255, 0.381));
+}
+
+.hover-3{
+    color: #8921ba;
+    background-color: white;
+    padding: 31.4px;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(to top, white 90%, rgba(255, 255, 255, 0.381));
+}
+
+.plano-1 {
+    padding: 60px;
+    border: 1px #7400aa solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #8921ba;
+    text-align: center;
+    line-height: 22px;
+}
+
+#p-1 {
+    font-size: 35px;
+}
+
+.plano-2 {
+    padding: 33px;
+    border: 1px #7400aa solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #8921ba;
+    text-align: center;
+    line-height: 29px;
+    font-size: 20px;
+}
+
+#p-2 {
+    font-size: 35px;
+}
+.texto{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.plano-3 {
+    padding: 33px;
+    border: 1px #7400aa solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #8921ba;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .col {
+        width: 800px;
+    }
 }
