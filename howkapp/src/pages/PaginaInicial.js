@@ -8,6 +8,7 @@ import BotaoAmarelo from "../components/BotaoAmarelo"
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
 import {Link} from 'react-router-dom'
 import Familia from '../assets/img-familia.png'
+import Planos from '../components/Planos'
 
 
 function PaginaInicial() {
@@ -73,6 +74,10 @@ function PaginaInicial() {
                     </div>
                 </section>
             </main>
+
+            <section>
+                <div><Planos /></div>
+            </section>
 
             <section className="fundoForm">
                     <div className='degrade-topo'></div>

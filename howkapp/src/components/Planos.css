@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    color: #7400AA;
+}
+
+.planos{
+
+    width: 30%;
+
+    border-right: 1px #7400AA solid;
+    border-left: 1px #7400AA solid;
+    border-top: 1px #7400AA solid;
+    border-bottom: 1px #7400AA solid;;
+}
+
+.plano-1{
+}
