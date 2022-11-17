@@ -21,7 +21,7 @@ function Series(){
     return(
         <div className='pageHome'>
                 <h1>
-                    Series
+                    Animes
                 </h1>
                 <section className='listas'>
                     {movieList.map((item, key) =>(
