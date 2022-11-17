@@ -1,0 +1,10 @@
+.btn-planos{
+    font-size: 15px;
+    border: #8921ba;
+    color: white;
+    background-color: #8921ba;
+    margin-top: 20px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    text-align: center;  
+}
