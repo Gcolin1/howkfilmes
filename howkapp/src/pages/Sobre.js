@@ -3,6 +3,7 @@ import ImgSobre from "../assets/imgSobre.png"
 import Missao from "../assets/missao.png"
 import Visao from "../assets/visao.png"
 import Valores from "../assets/valores.png"
+import Footer from "../components/Footer"
 import './css/Sobre.css'
 import Foto from '../assets/circulo.png'
 
@@ -86,6 +87,24 @@ function Sobre(){
                     </div>
                 </section>
             </section>
+
+            <section className='referencias_container'>
+                <h2 className='tituloReferencias'>Referências</h2>
+                <div className='containerNetflix'>
+                    <h3 className='tituloParallax'>Netflix</h3>
+                    <div className='gradient_topo'></div>
+                    <div className='parallax_netflix'></div>
+                    <div className='gradient_bottom'></div>
+                </div>
+
+                <div className='containerStar'>
+                    <h3 className='tituloParallax'>Starplus</h3>
+                    <div className='gradient_topo'></div>
+                    <div className='parallax_star'></div>
+                    <div className='gradient_bottom'></div>
+                </div>
+            </section>
+            <Footer />
         </div>
     )
 }
