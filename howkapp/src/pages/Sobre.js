@@ -49,23 +49,41 @@ function Sobre(){
 
                     <div>
                         <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Guilherme Colin</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                     </div>
 
                     <div>
                         <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Inaiara Araujo</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                     </div>
 
                     <div>
                         <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Eriky Santos</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                     </div>
 
                     <div>
                         <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Rafaela Mendes</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                     </div>
                 </section>
 
                 <section className='row2'>
+                <div>
+                        <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Guilherme Varjão</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                    </div>
 
+                    <div>
+                        <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Gustavo Soarez</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                    </div>
                 </section>
             </section>
         </div>
