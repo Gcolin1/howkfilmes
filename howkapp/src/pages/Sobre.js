@@ -4,6 +4,7 @@ import Missao from "../assets/missao.png"
 import Visao from "../assets/visao.png"
 import Valores from "../assets/valores.png"
 import './css/Sobre.css'
+import Foto from '../assets/circulo.png'
 
 function Sobre(){
     return(
@@ -40,6 +41,32 @@ function Sobre(){
                     <img src={Valores} alt="valores"/>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
                 </div>
+            </section>
+
+            <section id='container_equipe'>
+                <h2 className='titulo_equipe'>Nossa <span>equipe</span></h2>
+                <section className='row1'>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                    </div>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                    </div>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                    </div>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                    </div>
+                </section>
+
+                <section className='row2'>
+
+                </section>
             </section>
         </div>
     )

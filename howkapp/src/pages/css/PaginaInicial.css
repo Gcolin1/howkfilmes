@@ -3,6 +3,7 @@
     margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 
 .site{
@@ -51,7 +52,7 @@ body{
 
 .infoTop p{
     color: #f2f2f2;
-    font-size: 2.3em;
+    font-size: 1.8em;
     z-index: 1;
     margin-bottom: 40px;
     margin-top: 20px;
@@ -102,12 +103,12 @@ body{
 }
 
 .planet-info h2{
-    font-size: 2.3em;
+    font-size: 1.8em;
     margin-bottom: 20px;
 }
 
 .planet-info p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 500;
 }
 
@@ -118,6 +119,14 @@ body{
     border-top: solid #4e4e4e 1px;
     padding-top: 100px;
     padding-bottom: 30px;
+}
+
+.container-filmes h2{
+    font-size: 1.8em;
+}
+
+.container-filmes p{
+    font-size: 1.2em;
 }
 
 .container-filmes h2{
@@ -132,6 +141,14 @@ body{
     border-top: solid #4e4e4e 1px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.container-Animes h2{
+    font-size: 1.8em;
+}
+
+.container-Animes p{
+    font-size: 1.2em;
 }
 
 .container_form h2{
@@ -234,9 +251,26 @@ body{
 @media(max-width: 500px){
     .footer{
         flex-direction: column;
+        text-align: center;
     }
 
     .footer img{
         margin-bottom: 10px;
     }
+
+    .container-planet,
+    .container-filmes,
+    .container-Animes{
+        flex-direction: column;
+    }
+
+    .container-planet img,
+    .container-Animes img{
+        margin-bottom: 100px;
+    }
+
+    .container-filmes img{
+        margin-top: 100px;
+    } 
+    
 }
