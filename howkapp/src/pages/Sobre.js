@@ -3,7 +3,9 @@ import ImgSobre from "../assets/imgSobre.png"
 import Missao from "../assets/missao.png"
 import Visao from "../assets/visao.png"
 import Valores from "../assets/valores.png"
+import Footer from "../components/Footer"
 import './css/Sobre.css'
+import Foto from '../assets/circulo.png'
 
 function Sobre(){
     return(
@@ -41,6 +43,68 @@ function Sobre(){
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
                 </div>
             </section>
+
+            <section id='container_equipe'>
+                <h2 className='titulo_equipe'>Nossa <span>equipe</span></h2>
+                <section className='row1'>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Guilherme Colin</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                    </div>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Inaiara Araujo</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                    </div>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Eriky Santos</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                    </div>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Rafaela Mendes</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                    </div>
+                </section>
+
+                <section className='row2'>
+                <div>
+                        <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Guilherme Varjão</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                    </div>
+
+                    <div>
+                        <img src={Foto} alt="foto" />
+                        <h3 className='nomeEquipe'>Gustavo Soarez</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                    </div>
+                </section>
+            </section>
+
+            <section className='referencias_container'>
+                <h2 className='tituloReferencias'>Referências</h2>
+                <div className='containerNetflix'>
+                    <h3 className='tituloParallax'>Netflix</h3>
+                    <div className='gradient_topo'></div>
+                    <div className='parallax_netflix'></div>
+                    <div className='gradient_bottom'></div>
+                </div>
+
+                <div className='containerStar'>
+                    <h3 className='tituloParallax'>Starplus</h3>
+                    <div className='gradient_topo'></div>
+                    <div className='parallax_star'></div>
+                    <div className='gradient_bottom'></div>
+                </div>
+            </section>
+            <Footer />
         </div>
     )
 }
