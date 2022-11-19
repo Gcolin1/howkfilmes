@@ -13,26 +13,18 @@
 
 .planos {
     display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 40% 47%;
-    padding: 50px;
+    grid-template-areas:
+        'planos-1 planos-2 planos-3'
+        'hover-1  hover-2  hover-3' ;
+    padding: 100px;
     flex-direction: row;
     justify-content: center;
+    grid-gap:  50px;
+    
+
 }
 
-.hover-1{
-    color: #8921ba;
-    background-color: white;
-    padding: 29.5px;
-    text-align: center;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background: linear-gradient(to top, white 90%, rgba(255, 255, 255, 0.381));
-  
- 
-}
-
-.btn-planos{
+.btn-planos {
     font-size: 15px;
     border: #8921ba;
     color: white;
@@ -40,37 +32,68 @@
     margin-top: 20px;
     padding: 5px 30px 5px 30px;
     border-radius: 10px;
-    text-align: center;  
+    text-align: center;
 }
 
-.hover-2{
+.texto-1{
     color: #8921ba;
     background-color: white;
-    padding: 36.4px;
+    padding: 30.4px;
+    padding-bottom: 24px;
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     background: linear-gradient(to top, white 90%, rgba(255, 255, 255, 0.381));
+    font-size: 20px;
+    line-height:28px;
+    
 }
 
-.hover-3{
+.texto-2 {
     color: #8921ba;
     background-color: white;
-    padding: 31.4px;
+    padding: 25.4px;
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     background: linear-gradient(to top, white 90%, rgba(255, 255, 255, 0.381));
+    font-size: 20px;
+ 
 }
 
-.plano-1 {
-    padding: 60px;
+.bordaRoxa-1{
+    padding: 50px;
     border: 1px #7400aa solid;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: #8921ba;
+
+}
+
+.bordaRoxa-2{
+    padding: 40px;
+    border: 1px #7400aa solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #8921ba;
+
+}
+
+.bordaRoxa-3{
+    padding: 35px;
+    border: 1px #7400aa solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #8921ba;
+
+}
+
+.plano-1 {
+    
     text-align: center;
     line-height: 22px;
+    grid-area: 'planos-1';   
+
 }
 
 #p-1 {
@@ -78,34 +101,31 @@
 }
 
 .plano-2 {
-    padding: 33px;
-    border: 1px #7400aa solid;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    color: #8921ba;
     text-align: center;
     line-height: 29px;
     font-size: 20px;
+    grid-area: 'planos-2';
+
 }
 
 #p-2 {
     font-size: 35px;
 }
-.texto{
-    margin-top: 5px;
-    font-size: 20px;
-}
+
 .plano-3 {
-    padding: 33px;
-    border: 1px #7400aa solid;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    color: #8921ba;
+    
     text-align: center;
+    grid-area: 'planos-3'; 
+ 
+   
 }
 
 @media (max-width: 1200px) {
-    .col {
+    .planos {
         width: 800px;
+        grid-column: 
+        'Plano-1' 
+        'Plano-2' 
+        'Plano-3';
     }
 }
