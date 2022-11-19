@@ -12,3 +12,7 @@
     background: #7400AA;
     border-radius: 15px;
 }
+
+::selection{
+    background-color: #7400AA;
+}
