@@ -6,6 +6,9 @@ import Valores from "../assets/valores.png"
 import Footer from "../components/Footer"
 import './css/Sobre.css'
 import Foto from '../assets/circulo.png'
+import Colin from '../assets/colin.png'
+import Santos from '../assets/santos.png'
+import Rafa from '../assets/rafa.png'
 
 function Sobre(){
     return(
@@ -49,7 +52,7 @@ function Sobre(){
                 <section className='row1'>
 
                     <div>
-                        <img src={Foto} alt="foto" />
+                        <img src={Colin} alt="foto" />
                         <h3 className='nomeEquipe'>Guilherme Colin</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                     </div>
@@ -61,13 +64,13 @@ function Sobre(){
                     </div>
 
                     <div>
-                        <img src={Foto} alt="foto" />
+                        <img src={Santos} alt="foto" />
                         <h3 className='nomeEquipe'>Eriky Santos</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                     </div>
 
                     <div>
-                        <img src={Foto} alt="foto" />
+                        <img src={Rafa} alt="foto" />
                         <h3 className='nomeEquipe'>Rafaela Mendes</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                     </div>
