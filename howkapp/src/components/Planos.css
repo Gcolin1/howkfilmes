@@ -107,3 +107,9 @@
             'plano-3';
     }
 }
+
+@media (max-width: 500px){
+    .titulo{
+        font-size: 1.2em;
+    }
+}
