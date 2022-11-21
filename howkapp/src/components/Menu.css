@@ -38,3 +38,12 @@
     border: #f2f2f2b6 solid 1px;
     color: #f2f2f2;
 }
+
+.btnMenu{
+    margin-left: 25%;
+}
+
+.navbar-toggler-icon{
+    background-image: url(../assets/menu.png);
+}
+
