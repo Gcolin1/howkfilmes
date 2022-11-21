@@ -14,28 +14,18 @@
 .planos {
     display: grid;
     grid-template-areas:
+        
         'planos-1 planos-2 planos-3'
-        'hover-1  hover-2  hover-3' ;
+        'hover-1  hover-2  hover-3';
     padding: 100px;
     flex-direction: row;
     justify-content: center;
-    grid-gap:  50px;
-    
-
+    grid-gap: 50px;
+   
+  
 }
 
-.btn-planos {
-    font-size: 15px;
-    border: #8921ba;
-    color: white;
-    background-color: #8921ba;
-    margin-top: 20px;
-    padding: 5px 30px 5px 30px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.texto-1{
+.texto-1 {
     color: #8921ba;
     background-color: white;
     padding: 30.4px;
@@ -45,8 +35,7 @@
     border-bottom-right-radius: 25px;
     background: linear-gradient(to top, white 90%, rgba(255, 255, 255, 0.381));
     font-size: 20px;
-    line-height:28px;
-    
+    line-height: 28px;
 }
 
 .texto-2 {
@@ -58,42 +47,36 @@
     border-bottom-right-radius: 25px;
     background: linear-gradient(to top, white 90%, rgba(255, 255, 255, 0.381));
     font-size: 20px;
- 
 }
 
-.bordaRoxa-1{
+.bordaRoxa-1 {
     padding: 50px;
     border: 1px #7400aa solid;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: #8921ba;
-
 }
 
-.bordaRoxa-2{
+.bordaRoxa-2 {
     padding: 40px;
     border: 1px #7400aa solid;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: #8921ba;
-
 }
 
-.bordaRoxa-3{
+.bordaRoxa-3 {
     padding: 35px;
     border: 1px #7400aa solid;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: #8921ba;
-
 }
 
 .plano-1 {
-    
     text-align: center;
     line-height: 22px;
-    grid-area: 'planos-1';   
-
+    grid-area: 'planos-1';
 }
 
 #p-1 {
@@ -105,7 +88,6 @@
     line-height: 29px;
     font-size: 20px;
     grid-area: 'planos-2';
-
 }
 
 #p-2 {
@@ -113,19 +95,15 @@
 }
 
 .plano-3 {
-    
     text-align: center;
-    grid-area: 'planos-3'; 
- 
-   
+    grid-area: 'planos-3';
 }
-
-@media (max-width: 1200px) {
+@media (max-width: 1109px) {
     .planos {
-        width: 800px;
-        grid-column: 
-        'Plano-1' 
-        'Plano-2' 
-        'Plano-3';
+        grid-template-areas:
+            'titulo'
+            'plano-1'
+            'plano-2'
+            'plano-3';
     }
 }

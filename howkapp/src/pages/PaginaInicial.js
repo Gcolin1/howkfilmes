@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import Familia from '../assets/img-familia.png';
 import Planos from '../components/Planos';
 
+
 function PaginaInicial() {
     return (
         <div>

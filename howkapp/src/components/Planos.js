@@ -1,6 +1,7 @@
 import React from 'react';
 import '../components/Planos.css';
 import BotaoRoxo from '../components/BotaoRoxo'
+import BotaoRoxo2 from '../components/BotaoRoxo2'
 import { Link } from 'react-router-dom';
 
 function Planos() {
@@ -23,7 +24,7 @@ function Planos() {
                     seus conteudos<br></br>
                     preferidos<br></br>
                     <Link to={'/cadastro'}>
-                        <BotaoRoxo />
+                        <BotaoRoxo2 />
                     </Link>
                 </p>
                 </div>
@@ -41,7 +42,7 @@ function Planos() {
                     seus conteudos<br></br>
                     preferidos<br></br>
                     <Link to={'/cadastro'}>
-                        <BotaoRoxo />
+                        <BotaoRoxo2 />
                     </Link>
                 </p>
                 </div>
