@@ -1,4 +1,4 @@
-.btn-amarelo{
+.btn-roxo{
     border: none;
     background: #7400AA;
     color: #f2f2f2;
@@ -11,6 +11,12 @@
     z-index: 1;
 }
 
-.btn-amarelo:hover{
+.btn-roxo:hover{
     background: #5c0087;  
+}
+
+@media (max-width: 500px) {
+    .btn-roxo{
+        font-size: 0.8em;
+    }
 }

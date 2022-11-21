@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './css/Login.css'
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
 import {Link} from 'react-router-dom'

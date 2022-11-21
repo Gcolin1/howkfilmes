@@ -4,7 +4,7 @@ import './css/PaginaInicial.css';
 import logoTopo from '../assets/logoTopo.png';
 import ImgFilmes from '../assets/img-filmes.png';
 import ImgAnimes from '../assets/img-animes.png';
-import BotaoAmarelo from '../components/BotaoAmarelo';
+import ButtonRoxo from '../components/ButtonRoxo';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Familia from '../assets/img-familia.png';
@@ -24,13 +24,13 @@ function PaginaInicial() {
                     <img className="logoTop" src={logoTopo} alt="logo" />
                     <p>Séries, filmes e animes que você precisa</p>
                     <Link to={'/cadastro'}>
-                        <BotaoAmarelo />
+                        <ButtonRoxo />
                     </Link>
                 </div>
             </header>
 
             <div className="gradient-bottom"></div>
-            <main className="site container_main">
+            <main className="container_main site">
                 <section className="container-planet">
                     <div>
                         <img

@@ -70,6 +70,8 @@ body{
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .img{
@@ -98,7 +100,8 @@ body{
 
 .planet-info{
     color: #f2f2f2;
-    width: 500px;
+    width: 40%;
+    text-align: center;
     text-align: center;
 }
 
@@ -249,6 +252,19 @@ body{
 }
 
 @media(max-width: 500px){
+    .logoTop{
+        width: 60%;
+    }
+
+    .infoTop{
+        width: 80%;
+    }
+
+    .infoTop p{
+        font-size: 1em;
+        text-align: center;
+    }
+
     .footer{
         flex-direction: column;
         text-align: center;
@@ -272,5 +288,17 @@ body{
     .container-filmes img{
         margin-top: 100px;
     } 
+
+    .container-planet h2,
+    .container-filmes h2,
+    .container-Animes h2{
+        font-size: 1.3em;
+    }
+
+    .planet-info{
+        width: 80%;
+        font-size: 0.8em;
+    }
+    
     
 }
