@@ -20,6 +20,7 @@ body{
     height: 100vh;
     background-image: url(../../assets/aranhaverso2.jpg);
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
     flex: 1;
 }
@@ -56,6 +57,7 @@ body{
     z-index: 1;
     margin-bottom: 40px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .gradient-bottom{
@@ -251,7 +253,7 @@ body{
     width: 150px;
 }
 
-@media(max-width: 500px){
+@media(max-width: 1000px){
     .logoTop{
         width: 60%;
     }

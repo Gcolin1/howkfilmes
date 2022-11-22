@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { useHistory } from 'react-router-dom';
 import './Menu.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -7,6 +8,18 @@ import { Link } from 'react-router-dom';
 import LogoMenu from '../assets/logoTopo.png';
 
 function Menu() {
+    const [search, setSearch] = useState("");
+    const navigate = useHistory(0);
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        
+        if(!search) return
+
+        navigate.push(`/search?q=${search}`)
+        setSearch("")
+    }
+
     return (
         <Navbar className="menu" expand="lg">
             <Container>
@@ -34,12 +47,14 @@ function Menu() {
                             Sobre
                         </Nav.Link>
                     </Nav>
-                    <Form className="d-flex">
+                    <Form onSubmit={handleSubmit} className="d-flex">
                         <Form.Control
                             type="search"
                             placeholder="Search"
                             className="inputMenu"
                             aria-label="Search"
+                            onChange={(e) => setSearch(e.target.value)}
+                            value={search}
                         />
                     </Form>
                 </Navbar.Collapse>

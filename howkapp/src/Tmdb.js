@@ -1,5 +1,5 @@
 const API_KEY = '582270ca0cc6eefd08e343e5c968c71f';
-const API_BASE = 'https://api.themoviedb.org/3'    
+const API_BASE = 'https://api.themoviedb.org/3' ;
 
 /*
     requisitando listas de filmes da API
@@ -20,6 +20,7 @@ const basicFetch = async(endpoint) => {
 }
 
 export default{
+
     getlistmovies: async() =>{
         return[
             {
@@ -134,5 +135,6 @@ export default{
                 items: await basicFetch(`/discover/tv?with_genres=35&with_keywords=210024&language=pt-BR&api_key=${API_KEY}`)
             },
         ]
-    }
+    },
+
 }
