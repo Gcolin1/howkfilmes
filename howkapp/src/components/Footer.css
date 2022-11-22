@@ -7,6 +7,9 @@
 
 .rodape {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-image: url(../assets/fundofooter.png);
     background-size: cover;
@@ -38,6 +41,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    width: 90%;
     max-width: 1200px;
     padding: 50px 0;
     border-bottom: solid 1px #f2f2f2b6;
@@ -48,7 +52,7 @@
 .menu2 ul li,
 .menu3 ul li{
     list-style: none;
-    margin-top: 10px;
+    margin: 20px 50px;
 }
 
 .linkFooter{
@@ -67,6 +71,13 @@
 @media(max-width:1200px) {
     .col {
         width: 800px;
+    }
+
+    .menu1 ul li,
+    .menu2 ul li,
+    .menu3 ul li{
+        list-style: none;
+        margin: 20px 30px;
     }
 }
 
@@ -87,4 +98,12 @@
     .copy{
         font-size: 0.6em;
     }
+
+    .menu1 ul li,
+    .menu2 ul li,
+    .menu3 ul li{
+        list-style: none;
+        margin-top: 10px;
+        margin: 10px 10px;
+}
 }
