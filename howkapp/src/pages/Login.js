@@ -1,4 +1,3 @@
-import React from 'react'
 import './css/Login.css'
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
 import {Link} from 'react-router-dom'
@@ -7,18 +6,20 @@ import IconApple from '../assets/apple.png'
 import IconFace from '../assets/facebook.png'
 
 function Login(){
+    
     return(
         <div className='containerLogin'>
            <div className='containerInput'>
                 <h1>Entrar</h1>
-                <Form className='formLogin'>
+                <Form type="onsubmit" className='formLogin'>
                         <FormGroup floating>
                             <Input
                                 className="inputLogin"
-                                id="exampleNome"
+                                id="exampleEmail"
                                 name="email"
                                 placeholder="E-mail"
                                 type="email"
+                                required
                             />
                             <Label className="labelLogin" for="exampleEmail">
                                 E-mail
@@ -32,6 +33,7 @@ function Login(){
                                 name="senha"
                                 placeholder="Senha"
                                 type="password"
+                                required
                             />
                             <Label className="labelLogin" for="examplePassword">
                                 Senha
@@ -53,11 +55,13 @@ function Login(){
                     </button>
                 </div>
 
-                <Link to={"/home"}>
-                    <Button id='BtnLogin'>
-                       Entrar
-                    </Button>
-                </Link>
+                
+                    <Link to={"/home"}>
+                        <Button type='submit' id='BtnLogin'>
+                           Entrar
+                        </Button>
+                    </Link>
+                
            </div>
 
            <div className='backgroundLogin'>

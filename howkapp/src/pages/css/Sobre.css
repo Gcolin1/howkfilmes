@@ -1,13 +1,15 @@
 #sobre{
-    max-width: 1200px;
-    margin-top: 200px;
     display: flex;
-    margin-left: 250px;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1000px;
+    align-items: center;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
 #info_sobre{
-    width: 500px;
+    width: 1000px;
 }
 
 #info_sobre p{
@@ -24,7 +26,8 @@
 }
 
 .imgSobre{
-    width: 400px;
+    width: 100%;
+    
 }
 
 .titulo_sobre span{
@@ -55,7 +58,7 @@
     text-align: center;
     background: linear-gradient(324.61deg, #7000FF 4.67%, #1E0B36 95.96%);
     padding: 30px 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     margin: 0 30px;
     position: relative;
     bottom: 40px;
@@ -70,4 +73,121 @@
     color: #f2f2f2;
     font-weight: bold;
     margin-top: -30px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+
+.row1 div{
+    margin: 50px 60px;
+    text-align: center;
+}
+
+.row1 img{
+    max-width: 150px;
+    justify-content: center;
+}
+
+.titulo_equipe{
+    font-size: 1.6em;
+    color: #f2f2f2;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.titulo_equipe span{
+    color: #7400AA;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+.row1 img{
+    box-shadow: 0px 0px 20px 1px #7400AA;
+    border-radius: 50%;
+}
+
+.nomeEquipe{
+    color: #7000FF;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+.cargoEquipe{
+    color: #f2f2f2;
+    font-size: 1em;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+}
+
+.row2 div{
+    margin: 50px 60px;
+    text-align: center;
+}
+
+.row2 img{
+    max-width: 150px;
+    justify-content: center;
+}
+
+.row2 img{
+    box-shadow: 0px 0px 20px 1px #7400AA;
+    border-radius: 50%;
+}
+
+/* REFERENCIAS  */
+
+/* NETFLIX */
+.tituloReferencias{
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    margin: 150px 0;
+}
+
+.tituloParallax{
+    color: #f2f2f2;
+    font-weight: bold;
+    margin-left: 18%;
+}
+
+.parallax_netflix{
+    width: 100%;
+    height: 500px;
+    background-image: url(../../assets/netflixFundo.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.gradient_topo{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) ,rgba(0, 0, 0, 0));
+    position: relative;
+    top: 200px;
+}
+
+.gradient_bottom{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, rgb(0, 0, 0),rgba(0, 0, 0, 0));
+    position: relative;
+    bottom: 200px;
+}
+
+/* STARPLUS */
+
+.parallax_star{
+    width: 100%;
+    height: 500px;
+    background-image: url(../../assets/fundoStarplus.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }

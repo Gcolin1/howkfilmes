@@ -69,3 +69,22 @@
         width: 800px;
     }
 }
+
+@media (max-width: 500px){
+    .logoBottom{
+        width: 50%;
+    }
+
+    .menuRodape{
+        width: 90%;
+        text-align: center;
+    }
+    
+    .linkFooter{
+        font-size: 0.7em;
+    }
+
+    .copy{
+        font-size: 0.6em;
+    }
+}
