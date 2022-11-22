@@ -1,9 +1,118 @@
-.pagina{
-    background-image: url(../../assets/cadastro.jpeg);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerCadastro{
+    display: flex;
     width: 100%;
     height: 100vh;
-    background-size: cover;
 }
-#main-container{
+
+.backgroundCadastro{
+    background-image: url(../../assets/cadastro.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
     display: flex;
+    flex: 1;
+}
+
+
+.containerInput{
+    background-color: #0A060D;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    min-height: 100vh;
+    padding: 50px 40px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerInput h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #7400AA;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.inputCadastro{
+    border: none;
+    background-color: #f2f2f2;
+    width: 300px;
+}
+
+.inputCadastro:focus{
+    box-shadow: none;
+}
+
+.labelCadastroi{
+    color: rgba(0, 0, 0, 0.438);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.linkCad{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 0.7em;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.linkCad:hover{
+    color: rgb(73, 73, 73);
+}
+
+#BtnLogin{
+    background: #7400AA;
+    width: 300px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#BtnLogin:hover{
+    background: #56007d;
+}
+
+.login-icons{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login-icons img{
+    width: 20px;
+}
+
+.icon-button{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.login-icons .icon-button:nth-child(1){
+    background: #385490;
+}
+
+.login-icons .icon-button:nth-child(2){
+    background: #f2f2f2;
+}
+
+.login-icons .icon-button:nth-child(3){
+    background: #000;
 }

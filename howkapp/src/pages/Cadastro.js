@@ -4,70 +4,89 @@ import { Link } from 'react-router-dom';
 import IconGoogle from '../assets/google.png';
 import IconApple from '../assets/apple.png';
 import IconFace from '../assets/facebook.png';
-import './css/cadastrodapagina.css'
+import './css/cadastrodapagina.css';
 
 function Cadastro() {
     return (
-        <div id="main-container">
-            <h1>Cadastre-se</h1>
-            <Form className="formLogin">
-                <FormGroup floating>
-                    <Input
-                        className="inputLogin"
-                        id="exampleNome"
-                        name="Nome Completo"
-                        placeholder="Nome Completo"
-                        type="text"
-                    />
-                    <Label className="labelLogin" for="exampleEmail">
-                   Nome Completo
-                    </Label>
-                </FormGroup>
-                <FormGroup floating>
-                    <Input
-                        className="inputLogin"
-                        id="exampleNome"
-                        name="email"
-                        placeholder="E-mail"
-                        type="email"
-                    />
-                    <Label className="labelLogin" for="exampleEmail">
-                        E-mail
-                    </Label>
-                </FormGroup>
-                <FormGroup floating>
-                    <Input
-                        className="inputLogin"
-                        id="exampleSenha"
-                        name="senha"
-                        placeholder="Senha"
-                        type="password"
-                    />
-                    <Label className="labelLogin" for="examplePassword">
-                        Senha
-                    </Label>
-                </FormGroup>{' '}
-            </Form>
-            <Link to={'/cadastro'} className="linkCad">
-                Não tem acesso? assine.
-            </Link>
+        <div className="containerCadastro">
+            <div className="containerInput">
+                <h1>Cadastre-se</h1>
+                <Form className='formLogin'>
+                        <FormGroup floating>
+                            <Input
+                                className="inputLogin"
+                                id="exampleNome"
+                                name="email"
+                                placeholder="Nome Completo"
+                                type="text"
+                            />
+                            <Label className="labelLogin" for="exampleEmail">
+                                Nome Completo
+                            </Label>
+                        </FormGroup>
 
-            <div class="login-icons">
-                <button type="button" class="icon-button">
-                    <img src={IconFace} alt="facebook" />
-                </button>
-                <button type="button" class="icon-button">
-                    <img src={IconGoogle} alt="google" />
-                </button>
-                <button type="button" class="icon-button">
-                    <img src={IconApple} alt="apple" />
-                </button>
+                        <FormGroup floating>
+                            <Input
+                                className="inputLogin"
+                                id="exampleEmail"
+                                name="email"
+                                placeholder="E-mail"
+                                type="email"
+                            />
+                            <Label className="labelLogin" for="examplePassword">
+                                E-mail
+                            </Label>
+                        </FormGroup>
+
+                        <FormGroup floating>
+                            <Input
+                                className="inputLogin"
+                                id="exampleTelefone"
+                                name="Telefone"
+                                placeholder="Telefone"
+                                type="Telefone"
+                            />
+                            <Label className="labelLogin" for="examplePassword">
+                                Telefone
+                            </Label>
+                        </FormGroup>
+
+                        <FormGroup floating>
+                            <Input
+                                className="inputLogin"
+                                id="exampleSenha"
+                                name="senha"
+                                placeholder="Senha"
+                                type="senha"
+                            />
+                            <Label className="labelLogin" for="examplePassword">
+                                Senha
+                            </Label>
+                        </FormGroup>
+                        {' '}
+                </Form>
+                <Link to={'/cadastro'} className="linkCad">
+                    Esqueceu a Senha?
+                </Link>
+
+                <div class="login-icons">
+                    <button type="button" class="icon-button">
+                        <img src={IconFace} alt="facebook" />
+                    </button>
+                    <button type="button" class="icon-button">
+                        <img src={IconGoogle} alt="google" />
+                    </button>
+                    <button type="button" class="icon-button">
+                        <img src={IconApple} alt="apple" />
+                    </button>
+                </div>
+
+                <Link to={'/home'}>
+                    <Button id="BtnLogin">Entrar</Button>
+                </Link>
             </div>
 
-            <Link to={'/'}>
-                <Button id="BtnLogin">Entrar</Button>
-            </Link>
-            <div className='pagina'></div>
+            <div className="backgroundCadastro"></div>
         </div>
     );
 }
