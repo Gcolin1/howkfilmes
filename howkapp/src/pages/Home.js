@@ -37,7 +37,9 @@ function Home() {
             </section>
             <Footer />
 
-            {movieList.length <= 0 && <Loading />}
+            {movieList.length <= 0 && 
+                <Loading />
+            }
         </div>
     );
 }

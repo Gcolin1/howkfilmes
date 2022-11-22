@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { useEffect, useMemo } from 'react';
 import { useState } from 'react';
 import './css/Search.css';
-import MovieCard from '../components/MovieCard';
+import Footer from '../components/Footer'
 
 function Search() {
     const API_KEY = '582270ca0cc6eefd08e343e5c968c71f';
@@ -31,23 +31,27 @@ function Search() {
     return (
         <div>
             <Menu />
-            <h2 className="query-text">
-                Resultados para: <span>{query}</span>
-            </h2>
-            {movies.length <= 0 &&
-                    <p>Carregando...</p>
-            }
-            <div className='container_movies'>
-                {movies.map((movie) => (
-                    <div className='item_movie' key={movie}>
-                        <img
-                            alt={movie.title}
-                            src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
-                            className="movie_img"
-                        />
-                    </div>
-                ))}
-            </div>
+            
+            <section className='containerMain'>
+                <h2 className="query-text">
+                    Resultados para: <span>{query}</span>
+                </h2>
+                {movies.length <= 0 &&
+                        <p className='carregando'>Carregando...</p>
+                }
+                <div className='container_movies'>
+                    {movies.map((movie) => (
+                        <div className='item_movie' key={movie}>
+                            <img
+                                alt={movie.title}
+                                src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
+                                className="movie_img"
+                            />
+                        </div>
+                    ))}
+                </div>
+            </section>
+            <Footer/>
         </div>
     );
 }
