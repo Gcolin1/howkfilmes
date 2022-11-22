@@ -3,46 +3,37 @@
 }
 
 .Rodape{
-    color: white;
-    text-align: center;
-    
-}
-
-.container-footer{
-    max-width: 1400px;
-    padding: 0%;
-    margin: auto;
-    font-style: unset;
-    
-}
-.row-footer{
-    color: white;
-   
-
-}
-
-.footer-col{
-  
-}
-
-.footer-col li{
-    list-style: none;
-}
-.footer-col h4{
-    font-size: 22px;
-    color: aliceblue;
- 
-  
-}
-.Rodape2{
-    height: auto;
-}
-
-.footer{
     background-image: url(../../assets/fundofooter.png);
-    height: 
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.fim{
-    
+.Redessocias a img{
+    width: 50px;
+
+}
+
+.Item1 li{
+    list-style: none;
+    color: white;  
+
+}
+.Item2 li{
+    list-style: none;
+    color: white;
+}
+.Item3 li{
+    list-style: none;
+    color: white;
+}
+
+.ItensRodape{
+    display: flex;
+}
+
+.Final{
+    color: white;
 }

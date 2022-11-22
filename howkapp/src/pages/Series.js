@@ -13,6 +13,10 @@ import imagem1 from '../assets/banner7.png';
 import imagem2 from '../assets/banner3.png';
 import imagem3 from '../assets/banner6.png';
 import footer from '../assets/fundofooter.png';
+import logo from '../assets/logoTopo.png';
+import redes1 from '../assets/instagram-rodape.png';
+import redes2 from '../assets/facebook-rodape.png';
+import redes3 from '../assets/twitter.png';
 
 function Series() {
     const [movieList, setMovieList] = useState([]);
@@ -116,32 +120,62 @@ function Series() {
                     />
                 ))}
             </section>
-            <footer class="footer">
-                <div class="container-footer">
-                    <div class="row-footer">
-                        <div class="footer-col">
-                            <ul>
-                                <li>Filmes</li>
-                                <li>Séries</li>
-                                <li>Animes</li>
-                            </ul>
 
-                            <ul>
-                                <li>Home</li>
-                                <li>Sobre nós</li>
-                                <li>Equipe</li>
-                            </ul>
+            <footer className="Rodape">
+                <div className="Degradefooter"></div>
+                <img className="logo" src={logo} alt="logofooter" />
 
-                            <ul>
-                                <li>Contato</li>
-                                <li>Planos</li>
-                                <li>Sugestões</li>
-                            </ul>
-                        </div>
+                <div className="Redessocias">
+                    <a
+                        href="https://www.instagram.com/hfilmes02/"
+                        target="_blank_"
+                    >
+                        <img
+                            className="Instagram"
+                            src={redes1}
+                            alt="Instagram"
+                        />
+                    </a>
+
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100087671157679"
+                        target="_blank_"
+                    >
+                        <img className="Facebook" src={redes2} alt="Facebook" />
+                    </a>
+
+                    <a href="https://twitter.com/FilmesHowk" target="_blank_">
+                        <img className="Twitter" src={redes3} alt="Twitter" />
+                    </a>
+                </div>
+
+                <div className="ItensRodape">
+                    <div className="Item1">
+                        <ul>
+                            <li>Filmes</li>
+                            <li>Séries</li>
+                            <li>Animes</li>
+                        </ul>
+                    </div>
+
+                    <div className="Item2">
+                        <ul>
+                            <li>Home</li>
+                            <li>Sobre Nós</li>
+                            <li>Equipe</li>
+                        </ul>
+                    </div>
+
+                    <div className="Item3">
+                        <ul>
+                            <li>Contato</li>
+                            <li>Planos</li>
+                            <li>Sugestões</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="fim">
+                <div className='Final'>
                     &copy; HowkFilmes - Todos os direitos reservados.
                 </div>
             </footer>
