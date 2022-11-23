@@ -81,7 +81,7 @@ function Cadastro() {
                     </button>
                 </div>
 
-                <Link to={'/home'}>
+                <Link to={'/login'}>
                     <Button id="BtnLogin">Entrar</Button>
                 </Link>
             </div>
