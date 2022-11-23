@@ -37,7 +37,7 @@ function Search() {
                     Resultados para: <span>{query}</span>
                 </h2>
                 {movies.length <= 0 &&
-                        <p className='carregando'>Carregando...</p>
+                    <p className='carregando'>Carregando...</p>
                 }
                 <div className='container_movies'>
                     {movies.map((movie) => (
