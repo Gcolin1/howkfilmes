@@ -8,7 +8,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.Degradefooter{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(#0a060d 30%, rgba(255, 255, 255, 0));
+    
 }
 
 .Redessocias a img{
