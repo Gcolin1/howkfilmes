@@ -127,7 +127,7 @@ function Series() {
 
                 <div className="Redessocias">
                     <a
-                        href="https://www.instagram.com/hfilmes02/"
+                        href="https://www.instagram.com/howkfilmes.ltda/"
                         target="_blank_"
                     >
                         <img
@@ -144,7 +144,8 @@ function Series() {
                         <img className="Facebook" src={redes2} alt="Facebook" />
                     </a>
 
-                    <a href="https://twitter.com/FilmesHowk" target="_blank_">
+                    <a 
+                        href="https://twitter.com/FilmesHowk" target="_blank_">
                         <img className="Twitter" src={redes3} alt="Twitter" />
                     </a>
                 </div>

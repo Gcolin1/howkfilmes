@@ -15,7 +15,7 @@ function Footer(){
 
                 <div className='redes'>
                     <a
-                        href="https://www.instagram.com/"
+                        href="https://www.instagram.com/howkfilmes.ltda/"
                         target="_blank_"
                     >
                         <img
@@ -25,7 +25,7 @@ function Footer(){
                         />
                     </a>
                     <a
-                        href="https://www.facebook.com/"
+                        href="https://www.facebook.com/profile.php?id=100087671157679"
                         target="_blank_"
                     >
                         <img
@@ -35,8 +35,7 @@ function Footer(){
                         />
                     </a>
                     <a
-                        href="https://twitter.com/home"
-                        target="_blank_"
+                         href="https://twitter.com/FilmesHowk" target="_blank_"
                     >
                         <img
                             className="redessocial-3"
