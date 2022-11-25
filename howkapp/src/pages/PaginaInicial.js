@@ -87,9 +87,6 @@ function PaginaInicial() {
                 </section>
             </main>
 
-            <section>
-                <Planos />
-            </section>
 
             <section className="fundoForm">
                 <div className="degrade-topo"></div>

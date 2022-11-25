@@ -65,10 +65,7 @@ function Cadastro() {
                         </FormGroup>
                         {' '}
                 </Form>
-                <Link to={'/cadastro'} className="linkCad">
-                    Esqueceu a Senha?
-                </Link>
-
+             
                 <div class="login-icons">
                     <button type="button" class="icon-button">
                         <img src={IconFace} alt="facebook" />
@@ -81,8 +78,8 @@ function Cadastro() {
                     </button>
                 </div>
 
-                <Link to={'/login'}>
-                    <Button id="BtnLogin">Entrar</Button>
+                <Link to={'/escolherPlanos'}>
+                    <Button id="BtnLogin">Próximo</Button>
                 </Link>
             </div>
 

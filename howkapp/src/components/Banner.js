@@ -18,8 +18,8 @@ function Banner() {
           alt="filmes"
         />
         <Carousel.Caption>
-          <h3>Bem vindo a howkfilmes</h3>
-          <p>site para vc acompanhar suas séries e filmes favoritos de onde vc estiver</p>
+          <h3>Bem-vindo a howkfilmes</h3>
+          <p>site para você acompanhar suas séries e filmes favoritos de onde vc estiver</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1000}>
@@ -29,8 +29,10 @@ function Banner() {
           alt="animes"
         />
         <Carousel.Caption>
-          <h3>Todas as temporadas do seu anime favorito</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Todas as temporadas dos seus animes favoritos</h3>
+          <p>
+            
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -42,7 +44,7 @@ function Banner() {
         <Carousel.Caption>
           <h3>Séries completas para você maratonar</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+           acompanhe suas séries aqui, todas as temporadas estão disponíveis!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
