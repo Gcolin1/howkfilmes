@@ -26,7 +26,7 @@ function Series() {
     return (
         <div className="pageSeries">
 
-<header className="cabeça">
+            <header>
                 <Menu />
                 <Banner />
             </header>
