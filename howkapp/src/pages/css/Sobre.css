@@ -1,15 +1,15 @@
 #sobre{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    max-width: 1000px;
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 #info_sobre{
-    width: 1000px;
+    width: 700px;
 }
 
 #info_sobre p{
@@ -26,8 +26,9 @@
 }
 
 .imgSobre{
+    max-width: 500px;
     width: 100%;
-    
+    margin-right: 100px;
 }
  
 
@@ -169,7 +170,7 @@
 .gradient_topo{
     width: 100%;
     height: 200px;
-    background: linear-gradient(to bottom, rgb(0, 0, 0) ,rgba(0, 0, 0, 0));
+    background: linear-gradient(to bottom, #0A060D ,rgba(0, 0, 0, 0));
     position: relative;
     top: 200px;
 }
@@ -177,7 +178,7 @@
 .gradient_bottom{
     width: 100%;
     height: 200px;
-    background: linear-gradient(to top, rgb(0, 0, 0),rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, #0A060D,rgba(0, 0, 0, 0));
     position: relative;
     bottom: 200px;
 }

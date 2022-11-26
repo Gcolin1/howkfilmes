@@ -36,7 +36,6 @@ function Animes(){
                      <Loading />    
                }
                <Footer />
-
         </div>
     )
 }
