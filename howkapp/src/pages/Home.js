@@ -24,7 +24,7 @@ function Home() {
     return (
         <div className="pageHome">
             <Menu />
-            <Banner/>
+            <Banner />
 
             <section className="listas">
                 {movieList.map((item, key) => (
