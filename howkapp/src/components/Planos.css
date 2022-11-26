@@ -5,11 +5,73 @@
     font-size: 25px;
 }
 
+.containerLink{
+    margin: 50px -100px;
+    width: 150px;
+}
+
+.linkVoltar{
+    color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.linkVoltar:hover{
+    color: #49007a;
+}
+
+.linkVoltar h3{
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+
+.containerPlanos{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
 .titulo {
     padding-bottom: 5px;
     text-align: center;
-    color: #8921ba;
+    color: #ffffff;
+    font-size: 1.5em;
 }
+
+.nav-link{
+    color: #f2f2f2;
+    font-size: 0.8em;
+}
+
+.nav-link:hover{
+    color: #a5a5a5;
+}
+
+.tabs1{
+    width: 100%;
+}
+
+.plano-1,
+.plano-2,
+.plano-3{
+    color: #f2f2f2;
+    padding: 60px;
+    border: 1px white solid;
+    width: 450px;
+}
+
+.planoInfo h2{
+   font-size: 1.3em;
+   margin-bottom: 50px;
+}
+
+.planoInfo h3{
+    font-size: 1.8em;
+    margin-bottom: 50px;
+    font-weight: bold;
+ }
 
 .planos {
     display: grid;
@@ -18,13 +80,7 @@
     flex-direction: row;
     justify-content: center;
     grid-gap: 50px;
-
     text-align: center;
-}
-
-.plano-1 {
-    padding: 60px;
-    border: 1px white solid;
 }
 
 .preencher {
@@ -35,6 +91,65 @@
      ;
 }
 
-.inputCartaoNumero {
-     background-color: black;
+.inputCartaoNumero,
+.inputCartaoNome,
+.inputMmaa,
+.inputCvv{
+     background-color: transparent;
+     border-radius: 10px;
+     padding: 10px 10px;
+     color: #f2f2f2;
+     margin-bottom: 10px;
+     border: 1px solid #f2f2f2a1;
+}
+
+.inputMmaa{
+    margin-right: 10px;
+}
+
+.inputCvv,
+.inputMmaa{
+    width: 50%; 
+}
+
+.inpVenc{
+    display: flex;
+}
+
+.textEco{
+    font-size: 0.8em;   
+}
+
+.BtnAssinar{
+    padding: 10px 100px;
+    background-color: #7800c9;
+    color: #f2f2f2;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 50px;
+    transition: 200ms ease-in;
+}
+
+.BtnAssinar:hover{
+    background-color: #49007a;
+}
+
+.BtnAssinar:nth-child(1){
+    margin-top: 50px;
+}
+
+@media(max-width: 1400px){
+    .containerLink{
+        margin: 50px 100px;
+    }
+
+    .planos {
+        display: grid;
+        grid-template-areas: 'planos-1 planos-2 ';
+        padding: 80px;
+        flex-direction: row;
+        justify-content: center;
+        grid-gap: 50px;
+        text-align: center;
+    }
 }
