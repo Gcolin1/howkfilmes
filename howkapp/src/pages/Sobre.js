@@ -10,15 +10,18 @@ import Colin from '../assets/colin.png'
 import Santos from '../assets/santos.png'
 import Rafa from '../assets/rafa.png'
 
-function Sobre(){
-    return(
+function Sobre() {
+    return (
         <div>
             <Menu />
             <section id='sobre'>
                 <div id='info_sobre'>
                     <h1 className='titulo_sobre'>Sobre<span>nós</span></h1>
                     <p>
-                    Nosso objetivo é criar o streaming que tenha a maior variação de filmes, séries, desenhos e animes do mundo. Queremos que sua experiência quando estiver procurando algo para assistir esteja em apenas um site, somos práticos, tudo que você quer ver, está aqui!
+                        Nosso objetivo é criar o streaming que tenha a maior variação de filmes,
+                        séries, desenhos e animes do mundo. Queremos que sua experiência
+                        quando estiver procurando algo para assistir esteja em apenas
+                        um site, somos práticos, tudo que você quer ver, está aqui!
                     </p>
                 </div>
                 <div className='imgSobre'>
@@ -32,17 +35,17 @@ function Sobre(){
 
             <section id='containerMissao'>
                 <div className="item" >
-                    <img src={Missao} alt="missão"/>
+                    <img src={Missao} alt="missão" />
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
                 </div>
 
                 <div className="item">
-                    <img src={Visao} alt="visão"/>
+                    <img src={Visao} alt="visão" />
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
                 </div>
 
                 <div className="item">
-                    <img src={Valores} alt="valores"/>
+                    <img src={Valores} alt="valores" />
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
                 </div>
             </section>
@@ -77,7 +80,7 @@ function Sobre(){
                 </section>
 
                 <section className='row2'>
-                <div>
+                    <div>
                         <img src={Foto} alt="foto" />
                         <h3 className='nomeEquipe'>Guilherme Varjão</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>

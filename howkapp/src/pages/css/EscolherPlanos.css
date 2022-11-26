@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.titulo {
+    padding-bottom: 5px;
+    text-align: center;
+    color: #8921ba;
+}
+
+.planos {
+    display: grid;
+    grid-template-areas: 'planos-1 planos-2 planos-3';
+    padding: 100px;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+
+
+.bordaRoxa-1 {
+    padding: 60px 50px 400px 50px;
+    border: 1px white solid;
+    color: white;
+}
+
+.bordaRoxa-2 {
+    padding: 0px;
+    border: 1px #7400aa solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #8921ba;
+}
+
+.bordaRoxa-3 {
+    padding: 35px;
+    border: 1px #7400aa solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #8921ba;
+}
+hr {
+    width: 350px;
+    color: rgb(255, 255, 255);
+}
+
+.plano-1 {
+    text-align: center;
+    line-height: 22px;
+    grid-area: 'planos-1';
+}
+
+#p-1 {
+    font-size: 35px;
+}
+
+.plano-2 {
+    text-align: center;
+    line-height: 29px;
+    font-size: 20px;
+    grid-area: 'planos-2';
+}
+
+#p-2 {
+    font-size: 35px;
+}
+
+.plano-3 {
+    text-align: center;
+    grid-area: 'planos-3';
+}
+@media (max-width: 1109px) {
+    .planos {
+        grid-template-areas:
+            'titulo'
+            'plano-1'
+            'plano-2'
+            'plano-3';
+    }
+}
+
+@media (max-width: 500px) {
+    .titulo {
+        font-size: 1.2em;
+    }
+}

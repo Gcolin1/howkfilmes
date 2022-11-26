@@ -3,6 +3,8 @@ import Tmdb from '../Tmdb'
 import Loading from "../components/Loading"
 import ListaDeFilmes from '../components/ListaDeFilmes'
 import Menu from '../components/Menu'
+import Banner from '../components/Banner'
+import Footer from '../components/Footer'
 
 function Animes(){
     const [movieList, setMovieList] = useState([])
@@ -22,6 +24,8 @@ function Animes(){
     return(
         <div className='pageHome'>
                 <Menu />
+                <Banner />
+
                 <section className='listas'>
                     {movieList.map((item, key) =>(
                         <ListaDeFilmes key={key} title={item.title} items={item.items} />
@@ -31,6 +35,7 @@ function Animes(){
                 {movieList.length <= 0 &&
                      <Loading />    
                }
+               <Footer />
 
         </div>
     )

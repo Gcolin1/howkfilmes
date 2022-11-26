@@ -1,10 +1,9 @@
 .btn-planos2{
-    font-size: 15px;
-    border: #8921ba;
+    font-size: 20px;
+    border-radius: 3px;
     color: white;
-    background-color: #8921ba;
-    margin-top: 25px;
-    padding: 2px 30px 2px 30px;
-    border-radius: 10px;
+    background-color: #6b0d97;
+    margin-top: 120px;
+    padding: 14px 120px 14px 120px;
     text-align: center;  
 }

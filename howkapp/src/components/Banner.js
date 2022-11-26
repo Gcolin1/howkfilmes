@@ -14,9 +14,9 @@ function Banner() {
             <Carousel.Item interval={1000}>
                 <img className="d-block w-100" src={Banner7} alt="filmes" />
                 <Carousel.Caption>
-                    <h3>Bem-vindo ao howkfilmes</h3>
+                    <h3>Bem-vindo a howkfilmes</h3>
                     <p>
-                        Site para você acompanhar suas séries e filmes favoritos
+                        site para você acompanhar suas séries e filmes favoritos
                         de onde você estiver
                     </p>
                 </Carousel.Caption>
