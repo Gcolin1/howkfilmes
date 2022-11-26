@@ -25,7 +25,7 @@ function Planos() {
                                 <h2>Plano mensal</h2>
                                 <h3>R$20,00/mês</h3>
                             </div>
-                            <Link to={'/cadastro'}>
+                            <Link to={'/login'}>
                                 <button className='BtnAssinar'>
                                     Assinar
                                 </button>
@@ -84,7 +84,7 @@ function Planos() {
                                 <h2>Plano anual</h2>
                                 <h3>R$168,00/ano</h3>
                             </div>
-                            <Link to={'/cadastro'}>
+                            <Link to={'/login'}>
                                 <button className='BtnAssinar'>
                                     Assinar
                                 </button>
@@ -144,7 +144,7 @@ function Planos() {
                                 <h2>Baixa renda</h2>
                                 <h3>R$12,00/mês</h3>
                             </div>
-                            <Link to={'/cadastro'}>
+                            <Link to={'/login'}>
                                 <button className='BtnAssinar'>
                                     Assinar
                                 </button>
