@@ -3,7 +3,6 @@
 function EscolherPlanos(){
     return(
         <div>
-           
             <Planos />
         </div>
     )

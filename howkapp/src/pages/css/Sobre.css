@@ -193,3 +193,49 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+@media (max-width: 500px){
+
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgSobre{
+        display: none;
+    }
+
+    #info_sobre{
+        width: 350px;
+        text-align: justify;
+    }
+    
+    #info_sobre p{
+        color: #f2f2f2;
+        font-size: 1em;
+        line-height: 35px;
+    }
+    
+    .titulo_sobre{
+        font-size: 1.4em;
+        color: #f2f2f2;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    #containerMissao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item{
+        margin-bottom: 60px;
+    }
+
+    .row1,
+    .row2{
+        flex-direction: column;
+    }
+}
