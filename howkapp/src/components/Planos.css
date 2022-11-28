@@ -154,7 +154,7 @@
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 900px){
     .containerLink{
         margin: 50px 10px;
     }

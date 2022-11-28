@@ -71,16 +71,21 @@
     color: rgb(73, 73, 73);
 }
 
-#BtnLogin{
+#BtnCadastro{
     background: #7400AA;
-    width: 300px;
-    color: #fff;
+    padding: 20px;
+    margin-left: 35%;
+    color: #fff;        
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 50px;
     cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#BtnLogin:hover{
+#BtnCadastro:hover{
     background: #56007d;
 }
 

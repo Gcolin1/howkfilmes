@@ -2,6 +2,7 @@ import React from 'react';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import IconGoogle from '../assets/google.png';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import IconApple from '../assets/apple.png';
 import IconFace from '../assets/facebook.png';
 import './css/cadastrodapagina.css';
@@ -79,7 +80,9 @@ function Cadastro() {
                 </div>
 
                 <Link to={'/escolherPlanos'}>
-                    <Button id="BtnLogin">Próximo</Button>
+                    <Button id="BtnCadastro">
+                        <NavigateNextIcon style={{ fontSize: 50 }} />
+                    </Button>
                 </Link>
             </div>
 
