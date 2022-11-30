@@ -79,6 +79,8 @@ function Cadastro() {
                     </button>
                 </div>
 
+                <Link to={'/login'} className="linkLog">Ja tem acesso? entre</Link>
+
                 <Link to={'/escolherPlanos'}>
                     <Button id="BtnCadastro">
                         <NavigateNextIcon style={{ fontSize: 50 }} />

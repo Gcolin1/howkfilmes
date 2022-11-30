@@ -78,20 +78,6 @@ function Sobre() {
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                     </div>
                 </section>
-
-                <section className='row2'>
-                    <div>
-                        <img src={Foto} alt="foto" />
-                        <h3 className='nomeEquipe'>Guilherme Varjão</h3>
-                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
-                    </div>
-
-                    <div>
-                        <img src={Foto} alt="foto" />
-                        <h3 className='nomeEquipe'>Gustavo Soarez</h3>
-                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
-                    </div>
-                </section>
             </section>
 
             <section className='referencias_container'>

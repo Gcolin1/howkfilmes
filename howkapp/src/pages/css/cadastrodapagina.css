@@ -58,16 +58,17 @@
     font-weight: bold;
 }
 
-.linkCad{
+.linkLog{
     text-decoration: none;
     color: #f2f2f2;
-    font-weight: bold;
-    font-size: 0.7em;
+    font-weight: 600;
+    font-size: 0.6em;
     cursor: pointer;
     margin-left: 0;
+    margin-top: 20px;
 }
 
-.linkCad:hover{
+.linkLog:hover{
     color: rgb(73, 73, 73);
 }
 
