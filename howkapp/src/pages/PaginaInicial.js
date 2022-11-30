@@ -89,7 +89,8 @@ function PaginaInicial() {
             <section className="fundoForm">
                 <div className="degrade-topo"></div>
                 <div className="inputs">
-                    <h3>Entre em contato conosco</h3>
+                    <h3></h3>
+                    <h3>Em caso de duvidas ou sugestões entre em contato conosco</h3>
                     <Form>
                         <FormGroup floating>
                             <Input

@@ -82,7 +82,7 @@ function Planos() {
                         <div className="bordaRoxa-2">
                             <div className='planoInfo'>
                                 <h2>Plano anual</h2>
-                                <h3>R$168,00/ano</h3>
+                                <h3>R$15,00/mês</h3>
                             </div>
                             <Link to={'/login'}>
                                 <button className='BtnAssinar'>
