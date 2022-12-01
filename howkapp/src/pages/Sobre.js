@@ -33,17 +33,17 @@ function Sobre(){
             <section id='containerMissao'>
                 <div className="item" >
                     <img src={Missao} alt="missão"/>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
+                    <p>Nossa missão é levar a melhor experiência para nossos usuários e transformar em momentos mágicos. </p>
                 </div>
 
                 <div className="item">
                     <img src={Visao} alt="visão"/>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
+                    <p>Ser o lider em exibição, pela excelência em serviços e acessibilidade.</p>
                 </div>
 
                 <div className="item">
                     <img src={Valores} alt="valores"/>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
+                    <p>Atender a todos os nossos usuários com respeito, dedicação e transparência.</p>
                 </div>
             </section>
 
