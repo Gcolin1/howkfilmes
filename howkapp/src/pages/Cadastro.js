@@ -2,6 +2,7 @@ import React from 'react';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import IconGoogle from '../assets/google.png';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import IconApple from '../assets/apple.png';
 import IconFace from '../assets/facebook.png';
 import './css/cadastrodapagina.css';
@@ -65,10 +66,7 @@ function Cadastro() {
                         </FormGroup>
                         {' '}
                 </Form>
-                <Link to={'/cadastro'} className="linkCad">
-                    Esqueceu a Senha?
-                </Link>
-
+             
                 <div class="login-icons">
                     <button type="button" class="icon-button">
                         <img src={IconFace} alt="facebook" />
@@ -81,8 +79,12 @@ function Cadastro() {
                     </button>
                 </div>
 
-                <Link to={'/login'}>
-                    <Button id="BtnLogin">Entrar</Button>
+                <Link to={'/login'} className="linkLog">Ja tem acesso? entre</Link>
+
+                <Link to={'/escolherPlanos'}>
+                    <Button id="BtnCadastro">
+                        <NavigateNextIcon style={{ fontSize: 50 }} />
+                    </Button>
                 </Link>
             </div>
 

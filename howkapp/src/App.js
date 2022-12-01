@@ -10,6 +10,7 @@ import Cadastro from './pages/Cadastro';
 import './App.css'
 import Sobre from './pages/Sobre';
 import Search from './pages/Search';
+import EscolherPlanos from './pages/EscolherPlanos';
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/sobre" component={Sobre} />
                 <Route path="/login" component={Login} />
                 <Route path="/cadastro" component={Cadastro} />
+                <Route path="/escolherPlanos" component={EscolherPlanos} />
                 <Route path="/search" component={Search} />
             </BrowserRouter>
         </div>

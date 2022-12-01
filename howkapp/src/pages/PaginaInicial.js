@@ -42,20 +42,18 @@ function PaginaInicial() {
                     </div>
 
                     <div className="planet-info">
-                        <h2>Bem vindo ao HawkFilmes </h2>
+                        <h2>Bem-vindo ao HawkFilmes </h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem
+                            Assine agora e tenha tudo que você deseja assistir na palma da sua mão
                         </p>
                     </div>
                 </section>
 
                 <section className="container-filmes">
                     <div className="planet-info">
-                        <h2>Veja suas séries e filmes favoritos </h2>
+                        <h2>Veja as novidades dos telões na sua casa </h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem
+                           Do cinema para sua casa. Aqui você encotra todas as novidades, desde filmes até séries e animes 
                         </p>
                     </div>
 
@@ -80,21 +78,19 @@ function PaginaInicial() {
                     <div className="planet-info">
                         <h2>Veja suas séries e filmes favoritos</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem
+                            Suas séries e filmes favoritos estão aqui. Não perca tempo, venha assistir!
                         </p>
                     </div>
                 </section>
             </main>
 
-            <section>
-                <Planos />
-            </section>
+        
 
             <section className="fundoForm">
                 <div className="degrade-topo"></div>
                 <div className="inputs">
-                    <h3>Entre em contato conosco</h3>
+                    <h3></h3>
+                    <h3>Em caso de duvidas ou sugestões entre em contato conosco</h3>
                     <Form>
                         <FormGroup floating>
                             <Input

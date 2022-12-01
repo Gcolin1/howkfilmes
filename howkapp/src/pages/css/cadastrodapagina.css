@@ -8,7 +8,7 @@
 .containerCadastro{
     display: flex;
     width: 100%;
-    height: 100vh;
+    
 }
 
 .backgroundCadastro{
@@ -28,6 +28,7 @@
     height: 100%;
     min-height: 100vh;
     padding: 50px 40px;
+   
     margin-left: 0;
     display: flex;
     flex-direction: column;
@@ -57,29 +58,35 @@
     font-weight: bold;
 }
 
-.linkCad{
+.linkLog{
     text-decoration: none;
     color: #f2f2f2;
-    font-weight: bold;
-    font-size: 0.7em;
+    font-weight: 600;
+    font-size: 0.6em;
     cursor: pointer;
     margin-left: 0;
+    margin-top: 20px;
 }
 
-.linkCad:hover{
+.linkLog:hover{
     color: rgb(73, 73, 73);
 }
 
-#BtnLogin{
+#BtnCadastro{
     background: #7400AA;
-    width: 300px;
-    color: #fff;
+    padding: 20px;
+    margin-left: 35%;
+    color: #fff;        
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 50px;
     cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#BtnLogin:hover{
+#BtnCadastro:hover{
     background: #56007d;
 }
 

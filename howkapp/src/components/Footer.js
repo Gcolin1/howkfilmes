@@ -66,7 +66,7 @@ function Footer(){
                         <ul>
                             <li><Link className='linkFooter' to={"/contato"}>Contato</Link></li>
                             <li><Link className='linkFooter' to={"/"}>Pagina inicial</Link></li>
-                            <li><Link className='linkFooter' to={"/planos"}>Planos</Link></li>
+                            <li><Link className='linkFooter' to={"/escolherPlanos"}>Planos</Link></li>
                         </ul>
                     </div>
                 </div>
