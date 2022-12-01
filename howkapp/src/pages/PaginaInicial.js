@@ -8,7 +8,6 @@ import ButtonRoxo from '../components/ButtonRoxo';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Familia from '../assets/img-familia.png';
-import Planos from '../components/Planos';
 
 
 function PaginaInicial() {
@@ -89,7 +88,6 @@ function PaginaInicial() {
             <section className="fundoForm">
                 <div className="degrade-topo"></div>
                 <div className="inputs">
-                    <h3></h3>
                     <h3>Em caso de duvidas ou sugestões entre em contato conosco</h3>
                     <Form>
                         <FormGroup floating>

@@ -35,7 +35,6 @@ function Sobre() {
 
             <section id='containerMissao'>
                 <div className="item" >
-<<<<<<< HEAD
                     <img src={Missao} alt="missão"/>
                     <p>Nossa missão é levar a melhor experiência para nossos usuários e transformar em momentos mágicos. </p>
                 </div>
@@ -48,20 +47,6 @@ function Sobre() {
                 <div className="item">
                     <img src={Valores} alt="valores"/>
                     <p>Atender a todos os nossos usuários com respeito, dedicação e transparência.</p>
-=======
-                    <img src={Missao} alt="missão" />
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
-                </div>
-
-                <div className="item">
-                    <img src={Visao} alt="visão" />
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
-                </div>
-
-                <div className="item">
-                    <img src={Valores} alt="valores" />
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting, remaining.</p>
->>>>>>> 5bc3c239053f8824a723101926c2aaf4f0c86dc4
                 </div>
             </section>
 
