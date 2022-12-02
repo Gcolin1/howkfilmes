@@ -141,7 +141,15 @@
     }
 
     .containerMain{
-        margin-right: 50px;
+        margin-right: 10px;
+    }
+
+    .carregando{
+        color: #7000ac;
+        font-size: 1em;
+        margin-right: 180px;
+        margin-top: 50px;
+        font-weight: bold;
     }
     
 }
