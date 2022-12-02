@@ -69,7 +69,15 @@ function Planos() {
                                         </div>
                                     </form>
                                 </Tab>
-                                <Tab eventKey="boleto" title="Boleto"></Tab>
+                                <Tab eventKey="boleto" title="Boleto">
+                                    <p className='textBoleto'>
+                                      Até o vencimento o boleto bancário pode ser pago em qualquer agencia bancária, caixas eletronicos, lotéricas ou pela internet. O crédito será realizado após a confirmação do pagamento do boleto bancário pelo nosso banco , o que pode levar de 1 a 2 dias úteis.
+                                    </p>
+                                    
+                                    <button className='pagamento'>
+                                        Efetuar pagamento
+                                    </button>
+                                </Tab>
                                 <Tab eventKey="pix" title="Pix"></Tab>
                             </Tabs>
                         </div>
@@ -89,7 +97,7 @@ function Planos() {
                                     Assinar
                                 </button>
                             </Link>
-                            <h4 className='textEco'>Economeze 30% no plano anual</h4>
+                            <h4 className='textEco'>Economize 30% no plano anual</h4>
 
                             <hr></hr>
 
@@ -130,7 +138,15 @@ function Planos() {
                                         </div>
                                     </form>
                                 </Tab>
-                                <Tab eventKey="boleto" title="Boleto"></Tab>
+                                <Tab eventKey="boleto" title="Boleto">
+                                <p className='textBoleto'>
+                                      Até o vencimento o boleto bancário pode ser pago em qualquer agencia bancária, caixas eletronicos, lotéricas ou pela internet. O crédito será realizado após a confirmação do pagamento do boleto bancário pelo nosso banco , o que pode levar de 1 a 2 dias úteis.
+                                    </p>
+                                    
+                                    <button className='pagamento'>
+                                        Efetuar pagamento
+                                    </button>
+                                </Tab>
                                 <Tab eventKey="pix" title="Pix"></Tab>
                             </Tabs>
                         </div>
@@ -191,7 +207,15 @@ function Planos() {
                                         </div>
                                     </form>
                                 </Tab>
-                                <Tab eventKey="boleto" title="Boleto"></Tab>
+                                <Tab eventKey="boleto" title="Boleto">
+                                <p className='textBoleto'>
+                                      Até o vencimento o boleto bancário pode ser pago em qualquer agencia bancária, caixas eletronicos, lotéricas ou pela internet. O crédito será realizado após a confirmação do pagamento do boleto bancário pelo nosso banco , o que pode levar de 1 a 2 dias úteis.
+                                    </p>
+                                    
+                                    <button className='pagamento'>
+                                        Efetuar pagamento
+                                    </button>
+                                </Tab>
                                 <Tab eventKey="pix" title="Pix"></Tab>
                             </Tabs>
                         </div>

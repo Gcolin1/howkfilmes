@@ -19,7 +19,7 @@ function Sobre() {
                     <h1 className='titulo_sobre'>Sobre<span>nós</span></h1>
                     <p>
                         Nosso objetivo é criar o streaming que tenha a maior variação de filmes,
-                        séries, desenhos e animes do mundo. Queremos que sua experiência
+                        séries e animes do mundo. Queremos que sua experiência
                         quando estiver procurando algo para assistir esteja em apenas
                         um site, somos práticos, tudo que você quer ver, está aqui!
                     </p>
@@ -36,7 +36,7 @@ function Sobre() {
             <section id='containerMissao'>
                 <div className="item" >
                     <img src={Missao} alt="missão"/>
-                    <p>Nossa missão é levar a melhor experiência para nossos usuários e transformar em momentos mágicos. </p>
+                    <p>Nossa missão é levar a melhor experiência para nossos usuários através de conteúdo como séries e filmes. Queremos transformar momentos de descanso em experiências mágicas. </p>
                 </div>
 
                 <div className="item">
@@ -58,24 +58,35 @@ function Sobre() {
                         <img src={Colin} alt="foto" />
                         <h3 className='nomeEquipe'>Guilherme Colin</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                        <a className='linkLinkedin' target="_blank" href='https://linkedin.com/in/guilherme-nascimento-colin-684a50199/'>linkedin</a>
                     </div>
 
                     <div>
                         <img src={Foto} alt="foto" />
                         <h3 className='nomeEquipe'>Inaiara Araujo</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                        <a className='linkLinkedin' target="_blank" href='https://linkedin.com/in/'>linkedin</a>
                     </div>
 
                     <div>
                         <img src={Santos} alt="foto" />
                         <h3 className='nomeEquipe'>Eriky Santos</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                        <a className='linkLinkedin' target="_blank" href='https://www.linkedin.com/in/eriky-costa-b82b37255'>linkedin</a>
                     </div>
 
                     <div>
                         <img src={Rafa} alt="foto" />
                         <h3 className='nomeEquipe'>Rafaela Mendes</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                        <a className='linkLinkedin' target="_blank" href='https://linkedin.com/in/rafaela-martins-dos-santos-a74b75183'>linkedin</a>
+                    </div>
+
+                    <div>
+                        <img src={Rafa} alt="foto" />
+                        <h3 className='nomeEquipe'>Guilherme varjão</h3>
+                        <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
+                        <a className='linkLinkedin' target="_blank" href='https://www.linkedin.com/in/guilhermevarjãosantos'>linkedin</a>
                     </div>
                 </section>
             </section>

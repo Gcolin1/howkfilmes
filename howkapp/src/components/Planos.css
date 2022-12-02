@@ -138,6 +138,16 @@
     margin-top: 50px;
 }
 
+.textBoleto{
+    font-size: 0.7em;
+}
+
+.pagamento{
+    padding: 10px 40px;
+    color: #f2f2f2;
+    background-color: #7800c9;
+}
+
 @media(max-width: 1400px){
     .containerLink{
         margin: 50px 100px;

@@ -64,6 +64,7 @@
     margin: 0 30px;
     position: relative;
     bottom: 40px;
+    transition: all ease 500ms;
 }
 
 .item img{
@@ -75,11 +76,17 @@
     color: #f2f2f2;
     font-weight: bold;
     margin-top: -30px;
+    font-size: 0.7em;
+}
+
+.item:hover{
+    transform: scale(1.1);
 }
 
 .row1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .row1 div{
@@ -107,8 +114,25 @@
 }
 
 .row1 img{
-    box-shadow: 0px 0px 20px 1px #7400AA;
     border-radius: 50%;
+    transition: ease-in 300ms;
+}
+
+.row1 img:hover{
+    box-shadow: 0px 0px 20px 1px #7400AA;
+}
+
+.linkLinkedin{
+    background-color: #0A66C2;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: ease-in 200ms;
+}
+
+.linkLinkedin:hover{
+    background-color: #00478d;
+    color: #b0b0b0;
 }
 
 .nomeEquipe{
