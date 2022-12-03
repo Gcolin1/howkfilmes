@@ -9,6 +9,8 @@ import Foto from '../assets/circulo.png'
 import Colin from '../assets/colin.png'
 import Santos from '../assets/santos.png'
 import Rafa from '../assets/rafa.png'
+import Inna from '../assets/inaiara.png'
+import Varjao from '../assets/varjao.png'
 
 function Sobre() {
     return (
@@ -62,7 +64,7 @@ function Sobre() {
                     </div>
 
                     <div>
-                        <img src={Foto} alt="foto" />
+                        <img src={Inna} alt="foto" />
                         <h3 className='nomeEquipe'>Inaiara Araujo</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                         <a className='linkLinkedin' target="_blank" href='https://linkedin.com/in/'>linkedin</a>
@@ -83,7 +85,7 @@ function Sobre() {
                     </div>
 
                     <div>
-                        <img src={Rafa} alt="foto" />
+                        <img src={Varjao} alt="foto" />
                         <h3 className='nomeEquipe'>Guilherme varjão</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
                         <a className='linkLinkedin' target="_blank" href='https://www.linkedin.com/in/guilhermevarjãosantos'>linkedin</a>

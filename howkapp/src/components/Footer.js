@@ -58,13 +58,13 @@ function Footer(){
                         <ul>
                             <li><Link className='linkFooter' to={"/animes"}>Animes</Link></li>
                             <li><Link className='linkFooter' to={"/sobre"}>Sobre nós</Link></li>
-                            <li><Link className='linkFooter' to={"/equipe"}>Equipe</Link></li>
+                            <li><Link className='linkFooter' to={"sobre#container_equipe"}>Equipe</Link></li>
                         </ul>
                     </div>
 
                     <div className='menu3'>
                         <ul>
-                            <li><Link className='linkFooter' to={"/contato"}>Contato</Link></li>
+                            <li><Link className='linkFooter' to={"/#formContato"}>Contato</Link></li>
                             <li><Link className='linkFooter' to={"/"}>Pagina inicial</Link></li>
                             <li><Link className='linkFooter' to={"/escolherPlanos"}>Planos</Link></li>
                         </ul>

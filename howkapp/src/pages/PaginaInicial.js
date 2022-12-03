@@ -90,7 +90,7 @@ function PaginaInicial() {
 
         
 
-            <section className="fundoForm">
+            <section className="fundoForm" id='formContato'>
                 <div className="degrade-topo"></div>
                 <div className="inputs">
                     <h3>Em caso de duvidas ou sugestões entre em contato conosco</h3>
