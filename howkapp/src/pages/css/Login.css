@@ -121,3 +121,9 @@
 .login-icons .icon-button:nth-child(3){
     background: #000;
 }
+
+@media(max-width: 415px){
+    .backgroundLogin{
+        display: none;
+    }
+}
