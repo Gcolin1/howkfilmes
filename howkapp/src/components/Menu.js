@@ -47,7 +47,7 @@ function Menu() {
                             Sobre
                         </Nav.Link>
                     </Nav>
-                    <Form onSubmit={handleSubmit} className="d-flex">
+                    <Form onSubmit={handleSubmit} className="d-flex inpMenu">
                         <Form.Control
                             type="search"
                             placeholder="Search"
