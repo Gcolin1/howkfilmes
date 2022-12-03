@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 function Search() {
     const API_KEY = '582270ca0cc6eefd08e343e5c968c71f';
-    const searchUrl = 'https://api.themoviedb.org/3/search/movie/';
+    const searchUrl = 'https://api.themoviedb.org/3/search/multi/'; 
     const { search } = useLocation();
 
     const searchParams = useMemo(() => new URLSearchParams(search), [search]);

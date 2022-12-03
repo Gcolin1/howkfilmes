@@ -61,7 +61,8 @@
         color: #f2f2f2;
         font-size: 1.5em;
         margin-top: 100px;
-        margin-right: 550px;
+        margin-left: 25%;
+        width: 50%;
     }
     
     .query-text span{
@@ -92,8 +93,8 @@
         color: #f2f2f2;
         font-size: 1.5em;
         margin-top: 100px;
-        margin-left: 650px;
-        width: 100%;
+        margin-left: 55%;
+        width: 50%;
     }
     
     .query-text span{
@@ -125,8 +126,8 @@
         font-size: 1em;
         margin-top: 100px;
         text-align: center;
-        margin-left: 530px;
-        width: 100%;
+        margin-left: 150%;
+        width: 50%;
     }
     
     .query-text span{
