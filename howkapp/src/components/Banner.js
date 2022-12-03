@@ -19,14 +19,14 @@ function Banner() {
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className="d-block w-100" src={Banner6} alt="animes" />
-                <Carousel.Caption>
+                <Carousel.Caption className='carrosselInfo'>
                     <h3>Todas as temporadas do seu anime favorito</h3>
                     <p>Assista agora a nova temporada de Demon Slayer</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" src={Banner3} alt="Séries" />
-                <Carousel.Caption>
+                <Carousel.Caption className='carrosselInfo'>
                     <h3>Séries completas para você maratonar</h3>
                     <p>
                         Quer algo mais emocionante? Maratone agora todas as
