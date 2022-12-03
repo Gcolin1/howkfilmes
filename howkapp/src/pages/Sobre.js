@@ -58,7 +58,7 @@ function Sobre() {
                         <img src={Colin} alt="foto" />
                         <h3 className='nomeEquipe'>Guilherme Colin</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
-                        <a className='linkLinkedin' target="_blank" href="https://linkedin.com/in/guilherme-nascimento-colin-684a50199">linkedin</a>
+                        <a className='linkLinkedin' target="_blank" href="https://www.linkedin.com/in/guilherme-nascimento-colin-684a50199">linkedin</a>
                     </div>
 
                     <div>
