@@ -37,6 +37,14 @@ body{
     color: #000;
 }
 
+.arrowBottom{
+    color: #f2f2f2;
+}
+
+.arrowBottom:hover{
+    color: #4e4e4e;
+}
+
 .gradient-top{
     width: 100%;
     background: linear-gradient(#0a060d 40%, rgba(255, 255, 255, 0));
@@ -251,6 +259,13 @@ body{
 
 .footer img{
     width: 150px;
+}
+
+@media (max-width: 1400px){
+    .infoTop p{
+        font-size: 1.2em;
+        text-align: center;
+    }
 }
 
 @media(max-width: 1000px){

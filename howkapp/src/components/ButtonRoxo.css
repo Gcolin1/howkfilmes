@@ -15,6 +15,12 @@
     background: #5c0087;  
 }
 
+@media (max-width: 1400px) {
+    .btn-roxo{
+        font-size: 1em;
+    }
+}
+
 @media (max-width: 500px) {
     .btn-roxo{
         font-size: 0.8em;

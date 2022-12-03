@@ -5,6 +5,7 @@ import logoTopo from '../assets/logoTopo.png';
 import ImgFilmes from '../assets/img-filmes.png';
 import ImgAnimes from '../assets/img-animes.png';
 import ButtonRoxo from '../components/ButtonRoxo';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Familia from '../assets/img-familia.png';
@@ -31,7 +32,11 @@ function PaginaInicial() {
 
             <div className="gradient-bottom"></div>
             <main className="container_main site">
-                <section className="container-planet">
+                <a href='#planet' className='arrowBottom'>
+                    <KeyboardArrowDownIcon style={{ fontSize: 60 }}></KeyboardArrowDownIcon>
+                </a>
+
+                <section id='planet' className="container-planet">
                     <div>
                         <img
                             alt="imagem planeta"
