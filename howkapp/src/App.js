@@ -10,6 +10,7 @@ import Cadastro from './pages/Cadastro';
 import './App.css'
 import Sobre from './pages/Sobre';
 import Search from './pages/Search';
+import Detalhe from './pages/Detalhe';
 import EscolherPlanos from './pages/EscolherPlanos';
 import MudarSenha from './pages/MudarSenha';
 
@@ -28,6 +29,7 @@ function App() {
                 <Route path="/escolherPlanos" component={EscolherPlanos} />
                 <Route path="/mudarSenha" component={MudarSenha} />
                 <Route path="/search" component={Search} />
+                <Route path="/detalhe/:id" component={Detalhe} />
             </BrowserRouter>
         </div>
     );

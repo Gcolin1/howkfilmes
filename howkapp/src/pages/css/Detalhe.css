@@ -1,0 +1,73 @@
+.bannerDetalhe{
+    width: 100%;
+    height: 100vh;
+}
+
+.infoDetalhe{
+    margin-bottom: 100px;
+}
+
+.infoDetalhe h1{
+    color: #7400AA;
+    font-size: 1.5em;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.degradeVertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #0A060D 10%, transparent 90% );
+
+}
+
+.degradeHorizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #0A060D 10%, transparent 90%);
+    position: relative;
+}
+
+.detalheInfo h3, .descricaoDetalhe h3{
+    color: #7400AA;
+    font-size: 1em;
+}
+
+.descricaoDetalhe, .detalheInfo{
+    margin-left: 50px;
+}
+
+.detalheInfo p, .descricaoDetalhe p{
+    color: #f2f2f2;
+    font-size: 0.8em;
+    align-items: center;
+}
+
+.bannerInfo{
+    width: 60%;
+    margin-left: 50px;
+}
+
+@media(max-width: 500px){
+    .infoDetalhe h1{
+        margin-left: 50px;
+        width: 85%;
+        flex-wrap: wrap;
+    }
+
+    .infoDetalhe{
+        padding-bottom: 30%;    
+    }
+    
+    .bannerInfo{
+        width: 90%;
+        margin-left: 0;
+    } 
+
+    .descricaoDetalhe p{
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+}
