@@ -2,6 +2,7 @@ import Menu from '../components/Menu';
 import { useLocation } from 'react-router-dom';
 import { useEffect, useMemo } from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './css/Search.css';
 import Footer from '../components/Footer'
 
@@ -42,11 +43,13 @@ function Search() {
                 <div className='container_movies'>
                     {movies.map((movie) => (
                         <div className='item_movie' key={movie}>
-                            <img
-                                alt={movie.title}
-                                src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
-                                className="movie_img"
-                            />
+                            <Link to={`/detalhe/${movie.id}`} >
+                                <img
+                                    alt={movie.title}
+                                    src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
+                                    className="movie_img"
+                                />
+                            </Link>
                         </div>
                     ))}
                 </div>
