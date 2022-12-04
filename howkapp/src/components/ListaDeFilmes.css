@@ -67,3 +67,11 @@
     right: 0;
     color: #fff;
 }
+
+@media(max-width: 500px){
+    .LinhaDeFilmes--title{
+    margin: 0px 0px 20px 35px;
+    color: #f2f2f2;
+    font-size: 0.8em;
+}
+}
