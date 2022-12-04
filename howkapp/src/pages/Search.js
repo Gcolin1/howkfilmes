@@ -2,7 +2,6 @@ import Menu from '../components/Menu';
 import { useLocation } from 'react-router-dom';
 import { useEffect, useMemo } from 'react';
 import { useState } from 'react';
-import { cors } from 'cors'
 import './css/Search.css';
 import Footer from '../components/Footer'
 
@@ -10,7 +9,6 @@ function Search() {
     const API_KEY = '582270ca0cc6eefd08e343e5c968c71f';
     const searchUrl = 'https://api.themoviedb.org/3/search/multi/'; 
     const { search } = useLocation();
-    app.use(cors())
 
 
     const searchParams = useMemo(() => new URLSearchParams(search), [search]);
