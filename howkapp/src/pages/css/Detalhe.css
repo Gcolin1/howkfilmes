@@ -53,6 +53,8 @@
 @media(max-width: 500px){
     .infoDetalhe h1{
         margin-left: 50px;
+        width: 85%;
+        flex-wrap: wrap;
     }
     
     .bannerInfo{
