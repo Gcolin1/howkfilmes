@@ -49,3 +49,14 @@
     width: 60%;
     margin-left: 50px;
 }
+
+@media(max-width: 500px){
+    .infoDetalhe h1{
+        margin-left: 50px;
+    }
+    
+    .bannerInfo{
+        width: 90%;
+        margin-left: 0;
+    } 
+}
