@@ -65,5 +65,10 @@
         width: 420px;
         margin-left: -80px;
     }
+
+    .container_link{
+        display: flex;
+        justify-content: space-around;
+    }
 }
 

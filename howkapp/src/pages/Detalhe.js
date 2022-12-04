@@ -11,6 +11,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 function Detalhe(){
     const API_KEY = '582270ca0cc6eefd08e343e5c968c71f';
     const movieURL = 'https://api.themoviedb.org/3/movie/'; 
+    const seriesURL = 'https://api.themoviedb.org/3/tv/'; 
 
     const { id }  = useParams()
     const [movie, setMovie] = useState(null)
