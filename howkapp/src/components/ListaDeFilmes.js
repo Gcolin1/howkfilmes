@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; 
 import './ListaDeFilmes.css';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
@@ -48,10 +49,12 @@ export default ({ title, items }) => {
                         items.results.map((item, key) => (
                             <div key={key} className="LinhaDeFilmes--item">
                                 {' '}
-                                <img
-                                    alt={items.title}
-                                    src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}
-                                />
+                                <Link to={`/detalhe/${item.id}`} >
+                                    <img
+                                        alt={items.title}
+                                        src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}
+                                    />
+                                </Link>
                             </div>
                         ))}
                 </div>

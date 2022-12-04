@@ -10,6 +10,7 @@ import Cadastro from './pages/Cadastro';
 import './App.css'
 import Sobre from './pages/Sobre';
 import Search from './pages/Search';
+import Detalhe from './pages/Detalhe';
 import EscolherPlanos from './pages/EscolherPlanos';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/cadastro" component={Cadastro} />
                 <Route path="/escolherPlanos" component={EscolherPlanos} />
                 <Route path="/search" component={Search} />
+                <Route path="/detalhe/:id" component={Detalhe} />
             </BrowserRouter>
         </div>
     );
