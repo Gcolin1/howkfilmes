@@ -56,9 +56,17 @@
         width: 85%;
         flex-wrap: wrap;
     }
+
+    .infoDetalhe{
+        padding-bottom: 30%;    
+    }
     
     .bannerInfo{
         width: 90%;
         margin-left: 0;
     } 
+
+    .descricaoDetalhe{
+        overflow-y: hidden;
+    }
 }
