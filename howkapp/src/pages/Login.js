@@ -72,7 +72,7 @@ function Login() {
                     </FormGroup>
                     {' '}
                 
-                <Link to={'/cadastro'} className="linkCad">Esqueceu a Senha?</Link><br></br>
+                <Link to={'/mudarSenha'} className="linkCad">Esqueceu a Senha?</Link><br></br>
                 <Link to={"/cadastro"} className="linkCad">Não tem acesso? assine.</Link>
 
                 <div class="login-icons">
