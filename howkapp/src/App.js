@@ -11,6 +11,7 @@ import './App.css'
 import Sobre from './pages/Sobre';
 import Search from './pages/Search';
 import EscolherPlanos from './pages/EscolherPlanos';
+import MudarSenha from './pages/MudarSenha';
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/login" component={Login} />
                 <Route path="/cadastro" component={Cadastro} />
                 <Route path="/escolherPlanos" component={EscolherPlanos} />
+                <Route path="/mudarSenha" component={MudarSenha} />
                 <Route path="/search" component={Search} />
             </BrowserRouter>
         </div>
