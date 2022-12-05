@@ -32,7 +32,7 @@ export default{
             
             {
                 slug: 'movies',
-                title: 'filmes',
+                title: 'Filmes',
                 items: await basicFetch(`/discover/movie?&language=pt-BR&api_key=${API_KEY}`)
             },
 

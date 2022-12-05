@@ -50,7 +50,7 @@ function Menu() {
                     <Form onSubmit={handleSubmit} className="d-flex inpMenu">
                         <Form.Control
                             type="search"
-                            placeholder="Search"
+                            placeholder="Pesquisa"
                             className="inputMenu"
                             aria-label="Search"
                             onChange={(e) => setSearch(e.target.value)}
