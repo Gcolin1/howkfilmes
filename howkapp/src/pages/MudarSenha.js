@@ -48,7 +48,7 @@ function MudarSenha() {
                     ) : (
                         ''
                     )}
-                    <FormGroup floating>
+                    <FormGroup  floating>
                         <Input
                             className="inputLogin"
                             id="exampleSenha"
