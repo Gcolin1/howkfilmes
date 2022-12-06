@@ -18,6 +18,7 @@
 
 .degradeVertical{
     width: inherit;
+    margin-top: -100px;
     height: inherit;
     background: linear-gradient(to top, #0A060D 10%, transparent 90% );
 
