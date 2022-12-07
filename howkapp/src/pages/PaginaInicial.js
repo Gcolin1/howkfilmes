@@ -46,7 +46,7 @@ function PaginaInicial() {
                     </div>
 
                     <div className="planet-info">
-                        <h2>Bem-vindo ao HawkFilmes </h2>
+                        <h2>Bem-vindo a HawkFilmes </h2>
                         <p>
                             Assine agora e tenha tudo que você deseja assistir na palma da sua mão
                         </p>
