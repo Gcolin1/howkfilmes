@@ -44,7 +44,7 @@ function Sobre() {
                         Nossa missão é levar a melhor experiência para nossos
                         usuários através de conteúdo como séries e filmes.
                         Queremos transformar momentos de descanso em
-                        experiências mágicas.{' '}
+                        experiências mágicas.
                     </p>
                 </div>
 
@@ -79,7 +79,7 @@ function Sobre() {
                         <a
                             className="linkLinkedin"
                             target="_blank"
-                            href="https://www.linkedin.com/in/guilherme-nascimento-colin-684a50199"
+                            href="https://www.linkedin.com/in/guilherme-nascimento-colin-684a50199" rel="noreferrer"
                         >
                             linkedin
                         </a>
@@ -94,7 +94,7 @@ function Sobre() {
                         <a
                             className="linkLinkedin"
                             target="_blank"
-                            href="https://linkedin.com/in/inaiara-tavares"
+                            href="https://linkedin.com/in/inaiara-tavares" rel="noreferrer"
                         >
                             linkedin
                         </a>
@@ -109,7 +109,7 @@ function Sobre() {
                         <a
                             className="linkLinkedin"
                             target="_blank"
-                            href="https://www.linkedin.com/in/eriky-costa-b82b37255"
+                            href="https://www.linkedin.com/in/eriky-costa-b82b37255" rel="noreferrer"
                         >
                             linkedin
                         </a>
@@ -124,7 +124,7 @@ function Sobre() {
                         <a
                             className="linkLinkedin"
                             target="_blank"
-                            href="https://linkedin.com/in/rafaela-martins-dos-santos-a74b75183"
+                            href="https://linkedin.com/in/rafaela-martins-dos-santos-a74b75183" rel="noreferrer"
                         >
                             linkedin
                         </a>
@@ -139,7 +139,7 @@ function Sobre() {
                         <a
                             className="linkLinkedin"
                             target="_blank"
-                            href="https://www.linkedin.com/in/guilhermevarjãosantos"
+                            href="https://www.linkedin.com/in/guilhermevarjãosantos" rel="noreferrer"
                         >
                             linkedin
                         </a>
