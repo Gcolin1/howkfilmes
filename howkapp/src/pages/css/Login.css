@@ -35,7 +35,7 @@
 .containerInput h1{
     font-size: 1.5em;
     font-weight: bold;
-    color: #7400AA;
+    color: #be39fc;
     margin-bottom: 30px;
     margin-left: 0;
 }
@@ -76,7 +76,7 @@
 }
 
 #BtnLogin{
-    background: #7400AA;
+    background: #be39fc;
     width: 300px;
     color: #fff;
     font-weight: bold;

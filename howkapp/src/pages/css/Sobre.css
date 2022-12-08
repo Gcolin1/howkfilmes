@@ -33,7 +33,7 @@
  
 
 .titulo_sobre span{
-    color: #7400AA;
+    color:    #be39fc ;
     font-size: 1em;
     margin-left: 5px;
 }
@@ -58,7 +58,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: linear-gradient(324.61deg, #7000FF 4.67%, #1E0B36 95.96%);
+    background: linear-gradient(324.61deg,  #be39fc 4.67%, #1E0B36 95.96%);
     padding: 30px 20px;
     border-radius: 20px;
     margin: 0 30px;
@@ -108,7 +108,7 @@
 }
 
 .titulo_equipe span{
-    color: #7400AA;
+    color:  #be39fc;
     font-size: 1em;
     margin-left: 5px;
 }
@@ -136,7 +136,7 @@
 }
 
 .nomeEquipe{
-    color: #7000FF;
+    color:  #be39fc;
     font-size: 1.2em;
     margin-top: 30px;
 }

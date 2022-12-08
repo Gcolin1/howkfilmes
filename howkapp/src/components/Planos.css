@@ -122,7 +122,7 @@
 
 .BtnAssinar{
     padding: 10px 100px;
-    background-color: #7800c9;
+    background-color:#be39fc;
     color: #f2f2f2;
     font-weight: bold;
     border: none;
@@ -145,7 +145,12 @@
 .pagamento{
     padding: 10px 40px;
     color: #f2f2f2;
-    background-color: #7800c9;
+    background-color: #be39fc;
+    transition: 200ms ease-in;
+}
+
+.pagamento:hover{
+    background-color: #49007a;
 }
 
 @media(max-width: 1400px){
