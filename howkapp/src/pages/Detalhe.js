@@ -11,10 +11,10 @@ import DescriptionIcon from '@mui/icons-material/Description';
 function Detalhe(){
     const API_KEY = '582270ca0cc6eefd08e343e5c968c71f';
     const movieURL = 'https://api.themoviedb.org/3/movie/'; 
-    const seriesURL = 'https://api.themoviedb.org/3/tv/'; 
 
     const { id }  = useParams()
     const [movie, setMovie] = useState(null)
+    const [video, setVideo] = useState(null)
 
     const getMovie = async (url) => {
         const req = await fetch(url)
@@ -26,6 +26,20 @@ function Detalhe(){
         const movieUrl = `${movieURL}${id}?api_key=${API_KEY}&language=pt-BR`
         getMovie(movieUrl)
     }, [])
+
+    //Busca de videos
+
+    const getVideo = async (url) => {
+        const req = await fetch(url)
+        const json = await req.json()
+        setVideo(json)
+        console.log(video)
+    }
+
+    useEffect(() => {   
+        const videoUrl = `${movieURL}${id}/videos?api_key=${API_KEY}&language=pt-BR`
+        getVideo(videoUrl)
+    }, [id])
 
     return(
         <div>
@@ -57,6 +71,11 @@ function Detalhe(){
                             </div>
                         </div>
                     </section>
+                </div>
+            )}
+            {video && (
+                <div>
+                    <iframe width="560" height="315" src={`https://www.youtube.com/embed/${video.results[0].key}`} title="YouTube video player" frameborder="0" allow=" autoplay" allowfullscreen></iframe>
                 </div>
             )}
             <Footer />
