@@ -60,35 +60,35 @@ function Sobre() {
                         <img src={Colin} alt="foto" />
                         <h3 className='nomeEquipe'>Guilherme Colin</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
-                        <a className='linkLinkedin' target="_blank" href="https://www.linkedin.com/in/guilherme-nascimento-colin-684a50199">linkedin</a>
+                        <a className='linkLinkedin' target="_blank" href="https://www.linkedin.com/in/guilherme-nascimento-colin-684a50199" rel="noreferrer">linkedin</a>
                     </div>
 
                     <div>
                         <img src={Inna} alt="foto" />
                         <h3 className='nomeEquipe'>Inaiara Araujo</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
-                        <a className='linkLinkedin' target="_blank" href='https://linkedin.com/in/inaiara-tavares'>linkedin</a>
+                        <a className='linkLinkedin' target="_blank" href='https://linkedin.com/in/inaiara-tavares' rel="noreferrer">linkedin</a>
                     </div>
 
                     <div>
                         <img src={Santos} alt="foto" />
                         <h3 className='nomeEquipe'>Eriky Santos</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
-                        <a className='linkLinkedin' target="_blank" href='https://www.linkedin.com/in/eriky-costa-b82b37255'>linkedin</a>
+                        <a className='linkLinkedin' target="_blank" href='https://www.linkedin.com/in/eriky-costa-b82b37255' rel="noreferrer">linkedin</a>
                     </div>
 
                     <div>
                         <img src={Rafa} alt="foto" />
                         <h3 className='nomeEquipe'>Rafaela Mendes</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
-                        <a className='linkLinkedin' target="_blank" href='https://linkedin.com/in/rafaela-martins-dos-santos-a74b75183'>linkedin</a>
+                        <a className='linkLinkedin' target="_blank" href='https://linkedin.com/in/rafaela-martins-dos-santos-a74b75183' rel="noreferrer">linkedin</a>
                     </div>
 
                     <div>
                         <img src={Varjao} alt="foto" />
                         <h3 className='nomeEquipe'>Guilherme varjão</h3>
                         <p className='cargoEquipe'>Desenvolvedor<br></br>Front-end</p>
-                        <a className='linkLinkedin' target="_blank" href='https://www.linkedin.com/in/guilhermevarjãosantos'>linkedin</a>
+                        <a className='linkLinkedin' target="_blank" href='https://www.linkedin.com/in/guilhermevarjãosantos' rel="noreferrer">linkedin</a>
                     </div>
                 </section>
             </section>
