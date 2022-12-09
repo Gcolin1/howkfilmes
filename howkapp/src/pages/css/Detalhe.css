@@ -76,6 +76,17 @@
         display: flex;
         flex-direction: column;
     }
+
+    .containerTrailer{
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descricaoDetalhe p{
+        max-height: 400px;
+        overflow-y: scroll;
+    }
 }
 
 @media(max-width: 540px){

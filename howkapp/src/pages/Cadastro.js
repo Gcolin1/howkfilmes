@@ -117,15 +117,15 @@ function Cadastro() {
                         </Label>
                     </FormGroup>{' '}
                     <div class="login-icons">
-                        <button type="button" class="icon-button">
-                            <img src={IconFace} alt="facebook" />
-                        </button>
-                        <button type="button" class="icon-button">
-                            <img src={IconGoogle} alt="google" />
-                        </button>
-                        <button type="button" class="icon-button">
-                            <img src={IconApple} alt="apple" />
-                        </button>
+                    <button type="button" class="icon-button">
+                        <a target='_blank' href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcwNjIyODM3LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D"><img src={IconFace} alt="facebook" /></a>
+                    </button>
+                    <button type="button" class="icon-button">
+                        <a target='_blank' href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&ifkv=AeAAQh4JcFrXOGTGRz9CYJ1NhtWUuRv0Ty4h9wUxYfUrr12JJKSkd6I-wGXJvSUdoEO3dHHEUZCYTg&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src={IconGoogle} alt="google" /></a>
+                    </button>
+                    <button type="button" class="icon-button">
+                        <a target='_blank' href="https://appleid.apple.com/sign-in"><img src={IconApple} alt="apple" /></a>
+                    </button>
                     </div>
                     <Link to={'/login'} className="linkLog">
                         Ja tem acesso? entre
