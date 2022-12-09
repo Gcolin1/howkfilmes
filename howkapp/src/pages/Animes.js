@@ -30,7 +30,11 @@ function Animes() {
 
             <Carousel className="containerBanner">
                 <Carousel.Item interval={1000}>
-                    <img className="d-block w-100" src={BannerAnime3} alt="filmes" />
+                    <img
+                        className="d-block w-100"
+                        src={BannerAnime3}
+                        alt="filmes"
+                    />
                     <Carousel.Caption className="carrosselInfo">
                         <h3>Bem-vindo a howkfilmes</h3>
                         <p>
@@ -40,14 +44,22 @@ function Animes() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
-                    <img className="d-block w-100" src={BannerAnime1} alt="animes" />
+                    <img
+                        className="d-block w-100"
+                        src={BannerAnime1}
+                        alt="animes"
+                    />
                     <Carousel.Caption className="carrosselInfo">
                         <h3>Todas as temporadas do seu anime favorito</h3>
                         <p>Assista agora a nova temporada de Demon Slayer</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-100" src={BannerAnime2} alt="Séries" />
+                    <img
+                        className="d-block w-100"
+                        src={BannerAnime2}
+                        alt="Séries"
+                    />
                     <Carousel.Caption className="carrosselInfo">
                         <h3>Séries completas para você maratonar</h3>
                         <p>

@@ -73,3 +73,15 @@
     }
 }
 
+@media(max-width: 900px){
+    .inpMenu{
+        width: 700px;
+        margin-left: -60px;
+    }
+
+    .container_link{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
