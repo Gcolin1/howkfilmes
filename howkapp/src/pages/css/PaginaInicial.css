@@ -39,7 +39,6 @@ body{
 
 .arrowBottom{
     color: #f2f2f2;
-    margin-top: 50px;
 }
 
 .arrowBottom:hover{
@@ -72,8 +71,8 @@ body{
 .gradient-bottom{
     width: 100%;
     background: linear-gradient(to top,#0A060D 30%, rgba(255, 255, 255, 0));
-    height: 350px;
-    margin-top: -300px;
+    height: 600px;
+    margin-top: -600px;
 }
 
 .container-planet{
@@ -321,5 +320,9 @@ body{
         font-size: 0.8em;
     }
     
+    .arrowBottom{
+        color: #f2f2f2;
+        margin-top: 50px;
+    }
     
 }
