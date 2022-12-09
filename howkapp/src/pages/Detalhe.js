@@ -25,7 +25,7 @@ function Detalhe() {
     useEffect(() => {
         const movieUrl = `${movieURL}${id}?api_key=${API_KEY}&language=pt-BR`;
         getMovie(movieUrl);
-    }, [id]);
+    }, []);
 
     //Busca de videos
 
@@ -37,9 +37,9 @@ function Detalhe() {
     };
 
     useEffect(() => {
-        const videoUrl = `${movieURL}${id}/videos?api_key=${API_KEY}&language=pt-BR`;
+        const videoUrl = `${movieURL}${id}/videos?api_key=${API_KEY}`;
         getVideo(videoUrl);
-    }, [id]);
+    }, []);
 
     return (
         <div>
@@ -116,7 +116,7 @@ function Detalhe() {
                         <div className="containerTrailer">
                             <h2 className="tituloTrailer">Confira o trailer</h2>
                             <iframe
-                                src={`https://www.youtube.com/embed/${video.results[0].key}`}
+                                src={`https://www.youtube.com/embed/${video.results[1].key}`}
                                 className='trailer'
                                 title="YouTube video player"
                                 frameborder="0"
