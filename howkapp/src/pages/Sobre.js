@@ -74,7 +74,7 @@ function Sobre() {
                         <img src={Colin} alt="foto" />
                         <h3 className="nomeEquipe">Guilherme Colin</h3>
                         <p className="cargoEquipe">
-                            Desenvolvedor<br></br>Front-end
+                            Desenvolvedor<br></br>Full-stack e CEO
                         </p>
                         <a
                             className="linkLinkedin"
@@ -89,7 +89,7 @@ function Sobre() {
                         <img src={Inna} alt="foto" />
                         <h3 className="nomeEquipe">Inaiara Araujo</h3>
                         <p className="cargoEquipe">
-                            Desenvolvedor<br></br>Front-end
+                            Desenvolvedora<br></br>Back-end e sócia
                         </p>
                         <a
                             className="linkLinkedin"
@@ -104,7 +104,7 @@ function Sobre() {
                         <img src={Santos} alt="foto" />
                         <h3 className="nomeEquipe">Eriky Santos</h3>
                         <p className="cargoEquipe">
-                            Desenvolvedor<br></br>Front-end
+                            Desenvolvedor<br></br>Front-end e UX & UI
                         </p>
                         <a
                             className="linkLinkedin"
@@ -119,7 +119,7 @@ function Sobre() {
                         <img src={Rafa} alt="foto" />
                         <h3 className="nomeEquipe">Rafaela Mendes</h3>
                         <p className="cargoEquipe">
-                            Desenvolvedor<br></br>Front-end
+                            Desenvolvedora<br></br>Front-end
                         </p>
                         <a
                             className="linkLinkedin"
