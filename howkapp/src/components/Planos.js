@@ -90,7 +90,7 @@ function Planos() {
                         <div className="bordaRoxa-2">
                             <div className='planoInfo'>
                                 <h2>Plano anual</h2>
-                                <h3>R$15,00/mês</h3>
+                                <h3>R$154,00/ano</h3>
                             </div>
                             <Link to={'/login'}>
                                 <button className='BtnAssinar'>
@@ -158,7 +158,7 @@ function Planos() {
                         <div className="bordaRoxa-3">
                             <div className='planoInfo'>
                                 <h2>Baixa renda</h2>
-                                <h3>R$12,00/mês</h3>
+                                <h3>R$10,00/mês</h3>
                             </div>
                             <Link to={'/login'}>
                                 <button className='BtnAssinar'>
