@@ -5,7 +5,6 @@ import Visao from '../assets/visao.png';
 import Valores from '../assets/valores.png';
 import Footer from '../components/Footer';
 import './css/Sobre.css';
-import Foto from '../assets/circulo.png';
 import Colin from '../assets/colin.png';
 import Santos from '../assets/santos.png';
 import Rafa from '../assets/rafa.png';
