@@ -5,12 +5,12 @@ import Visao from '../assets/visao.png';
 import Valores from '../assets/valores.png';
 import Footer from '../components/Footer';
 import './css/Sobre.css';
-import Foto from '../assets/circulo.png';
 import Colin from '../assets/colin.png';
 import Santos from '../assets/santos.png';
 import Rafa from '../assets/rafa.png';
 import Inna from '../assets/inaiara.png';
 import Varjao from '../assets/varjao.png';
+import Favela from '../assets/favela.webp';
 
 function Sobre() {
     return (
@@ -145,6 +145,15 @@ function Sobre() {
                         </a>
                     </div>
                 </section>
+            </section>
+
+            <section className='container_projetos'>
+                <div className='gradient-left'>
+                <h2 className="titulo-projeto">Favela movies</h2>
+                <p>O projeto Favela Movies, que
+                consiste em um espaço em nossa plataforma dedicado ao incentivo à novos talentos da
+                periferia através de incentivo para a criação de projetos inovadores.</p>
+                </div>
             </section>
 
             <section className="referencias_container">
