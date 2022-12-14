@@ -52,27 +52,6 @@
     background-image: url(../assets/menu.png);
 }
 
-
-
-@media(max-width: 700px){
-    .inpMenu{
-        width: 550px;
-        margin-left: -80px;
-    }
-}
-
-@media(max-width: 500px){
-    .inpMenu{
-        width: 420px;
-        margin-left: -80px;
-    }
-
-    .container_link{
-        display: flex;
-        justify-content: space-around;
-    }
-}
-
 @media(max-width: 900px){
     .inpMenu{
         width: 700px;
@@ -84,4 +63,25 @@
         justify-content: space-around;
     }
 }
+
+@media(max-width: 700px){
+    .inpMenu{
+        width: 550px;
+        margin-left: -80px;
+    }
+}
+
+@media(max-width: 500px){
+    .inpMenu{
+        width: 420px; 
+        margin-left: -80px;
+    }
+
+    .container_link{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
 
