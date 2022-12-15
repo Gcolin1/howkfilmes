@@ -142,7 +142,7 @@ function Sobre() {
                         <a
                             className="linkLinkedin"
                             target="_blank"
-                            href="https://www.linkedin.com/in/" rel="noreferrer"
+                            href="https://www.linkedin.com/in/joel-omar-argote-rodriguez-ab0363237/" rel="noreferrer"
                         >
                             linkedin
                         </a>
