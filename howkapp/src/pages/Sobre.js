@@ -142,7 +142,7 @@ function Sobre() {
                         <a
                             className="linkLinkedin"
                             target="_blank"
-                            href="https://www.linkedin.com/in/guilhermevarjãosantos" rel="noreferrer"
+                            href="https://www.linkedin.com/in/" rel="noreferrer"
                         >
                             linkedin
                         </a>
