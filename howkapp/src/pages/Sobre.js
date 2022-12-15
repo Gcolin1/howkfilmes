@@ -9,7 +9,7 @@ import Colin from '../assets/colin.png';
 import Santos from '../assets/santos.png';
 import Rafa from '../assets/rafa.png';
 import Inna from '../assets/inaiara.png';
-import Varjao from '../assets/varjao.png';
+import Joel from '../assets/joel.png';
 import Favela from '../assets/favela.webp';
 import SOS from '../assets/SOS.png';
 import Bakhita from '../assets/bakhita.png';
@@ -134,8 +134,8 @@ function Sobre() {
                     </div>
 
                     <div>
-                        <img src={Varjao} alt="foto" />
-                        <h3 className="nomeEquipe">Guilherme varjão</h3>
+                        <img src={Joel} alt="foto" />
+                        <h3 className="nomeEquipe">Joel Rodrigues</h3>
                         <p className="cargoEquipe">
                             Desenvolvedor<br></br>Front-end
                         </p>
