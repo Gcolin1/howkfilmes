@@ -11,6 +11,9 @@ import Rafa from '../assets/rafa.png';
 import Inna from '../assets/inaiara.png';
 import Varjao from '../assets/varjao.png';
 import Favela from '../assets/favela.webp';
+import SOS from '../assets/SOS.png';
+import Bakhita from '../assets/bakhita.png';
+
 
 function Sobre() {
     return (
@@ -149,10 +152,33 @@ function Sobre() {
 
             <section className='container_projetos'>
                 <div className='gradient-left'>
-                <h2 className="titulo-projeto">Favela movies</h2>
-                <p>O projeto Favela Movies, que
-                consiste em um espaço em nossa plataforma dedicado ao incentivo à novos talentos da
-                periferia através de incentivo para a criação de projetos inovadores.</p>
+                <h2 className="titulo-projeto">Projetos sociais</h2>
+                <div class="container-cards">
+            <div class="card">
+                <img src={Favela} alt="" />
+                <div class="info">
+                    <h1>Favela Movies</h1>
+                    <p></p>
+                    <a href="" target="_blank" class="btn">Saiba mais</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src={SOS} alt="" />
+                <div class="info">
+                    <h1>SOS Mata Atlântica</h1>
+                    <p></p>
+                    <a href="https://www.sosma.org.br/" class="btn" target="_blank">Saiba mais</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src={Bakhita} alt="" />
+                <div class="info">
+                    <h1>Ong Casa Bakhita</h1>
+                    <p></p>
+                    <a href="https://www.colsan.org.br/site/doador/locais-para-doacao-de-sangue/" class="btn">Saiba mais</a>
+                </div>
+            </div>
+        </div>
                 </div>
             </section>
 
