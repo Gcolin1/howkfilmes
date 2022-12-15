@@ -153,6 +153,8 @@
     margin-left: 10%;
     margin-bottom: 50px;
     color: #f2f2f2;
+    font-size: 1.5em;
+    margin-top: 100px;
 }
 
 .container-cards{
@@ -160,6 +162,7 @@
     grid-template-areas: 'card1 card2 card3';
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card img{
@@ -180,8 +183,13 @@
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
     transition: 0.5s ease-in-out;
-    margin: 0 10px;
+    margin: 20px 20px;
     border-radius: 0;
+}
+
+.info{
+    margin-right: 50px;
+    width: 80%  ;
 }
 
 .card:hover{
@@ -221,7 +229,7 @@
 }
 
 .card h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 30px;
     color: #f2f2f2;
 }
