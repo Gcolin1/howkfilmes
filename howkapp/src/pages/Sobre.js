@@ -135,7 +135,7 @@ function Sobre() {
 
                     <div>
                         <img src={Joel} alt="foto" />
-                        <h3 className="nomeEquipe">Joel Rodrigues</h3>
+                        <h3 className="nomeEquipe">Joel rodriguez</h3>
                         <p className="cargoEquipe">
                             Desenvolvedor<br></br>Front-end
                         </p>
